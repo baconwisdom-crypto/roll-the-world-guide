@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title>Game Guide Framework mark</title>
+  <rect width="512" height="512" rx="112" fill="#10161b"/>
+  <path d="M108 134h152c34 0 62 28 62 62v182H170c-34 0-62 28-62 62V134Z" fill="#c8ff4d"/>
+  <path d="M404 134H252c-34 0-62 28-62 62v182h152c34 0 62 28 62 62V134Z" fill="#8bd34b"/>
+  <path d="M160 214h72M160 258h56M284 214h72M284 258h56" fill="none" stroke="#10161b" stroke-linecap="round" stroke-width="20"/>
+  <path d="M256 164v216" fill="none" stroke="#10161b" stroke-linecap="round" stroke-width="12" opacity=".7"/>
+</svg>

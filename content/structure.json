@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "ui": {
+    "topics": {
+      "en": "Guide topics"
+    },
+    "chooseTask": {
+      "en": "What do you want to do?"
+    },
+    "browseTopics": {
+      "en": "Browse by task"
+    },
+    "pathways": {
+      "en": "Suggested reading routes"
+    },
+    "openTopic": {
+      "en": "Open topic"
+    },
+    "allGuides": {
+      "en": "All guides in this topic"
+    },
+    "onPage": {
+      "en": "In this guide"
+    },
+    "nextTask": {
+      "en": "Your next step"
+    },
+    "support": {
+      "en": "Supporting guidance"
+    },
+    "evidence": {
+      "en": "Scope and sources"
+    },
+    "faq": {
+      "en": "Questions and answers"
+    },
+    "primary": {
+      "en": "Quick answer"
+    },
+    "image": {
+      "en": "Gameplay reference"
+    },
+    "catalog": {
+      "en": "Name reference"
+    },
+    "comparison": {
+      "en": "Compare before changing"
+    },
+    "procedure": {
+      "en": "Work through the steps"
+    },
+    "troubleshooting": {
+      "en": "Choose the symptom"
+    },
+    "check": {
+      "en": "Check first"
+    },
+    "action": {
+      "en": "What to do"
+    },
+    "success": {
+      "en": "Success check"
+    },
+    "fallback": {
+      "en": "If it remains unclear"
+    },
+    "background": {
+      "en": "Read the supporting evidence"
+    },
+    "continueLabel": {
+      "en": "Continue with"
+    },
+    "startLabel": {
+      "en": "Start here"
+    },
+    "sourceScope": {
+      "en": "Source scope"
+    },
+    "overview": {
+      "en": "Overview"
+    },
+    "related": {
+      "en": "Related tasks"
+    },
+    "guidesCount": {
+      "en": "guides",
+      "de": "Anleitungen"
+    },
+    "recordsCount": {
+      "en": "records",
+      "de": "Einträge"
+    },
+    "sectionsCount": {
+      "en": "sections",
+      "de": "Abschnitte"
+    },
+    "expandBackground": {
+      "en": "Read the full background",
+      "de": "Hintergrund lesen"
+    }
+  },
+  "groups": [
+    {
+      "id": "progression",
+      "title": {
+        "en": "Build a bigger world"
+      },
+      "summary": {
+        "en": "From your first roll to stars, rare finds and space."
+      },
+      "hubPageId": "guides",
+      "pageIds": [
+        "beginner",
+        "stars",
+        "upgrades",
+        "finds",
+        "areas",
+        "space",
+        "codes",
+        "events"
+      ],
+      "featured": [
+        {
+          "pageId": "beginner",
+          "label": {
+            "en": "Roll the World Beginner’s Guide"
+          },
+          "description": {
+            "en": "A practical first-run route through grass, paths and streets, with controls, index claims and the first star explained."
+          }
+        },
+        {
+          "pageId": "stars",
+          "label": {
+            "en": "Roll the World Stars & Rebirths"
+          },
+          "description": {
+            "en": "What star resets keep, verified size milestones, growth multipliers and the route to the sixth star."
+          }
+        },
+        {
+          "pageId": "finds",
+          "label": {
+            "en": "Roll the World Finds & Rarities"
+          },
+          "description": {
+            "en": "Equip bonuses, protect useful rolls with locks, compare effects and sell unwanted finds carefully."
+          }
+        }
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "id": "first-run",
+      "title": {
+        "en": "Your first run, then the next"
+      },
+      "description": {
+        "en": "Learn the controls, invest stardust and prepare a star reset."
+      },
+      "stops": [
+        {
+          "pageId": "beginner",
+          "label": {
+            "en": "Roll the World Beginner’s Guide"
+          },
+          "description": {
+            "en": "A practical first-run route through grass, paths and streets, with controls, index claims and the first star explained."
+          }
+        },
+        {
+          "pageId": "upgrades",
+          "label": {
+            "en": "Roll the World Upgrades & Stardust"
+          },
+          "description": {
+            "en": "Compare growth, speed, stamina, magnet, luck and start size using the real upgrade panel."
+          }
+        },
+        {
+          "pageId": "stars",
+          "label": {
+            "en": "Roll the World Stars & Rebirths"
+          },
+          "description": {
+            "en": "What star resets keep, verified size milestones, growth multipliers and the route to the sixth star."
+          }
+        },
+        {
+          "pageId": "space",
+          "label": {
+            "en": "How to Unlock Space in Roll the World"
+          },
+          "description": {
+            "en": "The confirmed free space requirement, how stars differ from size, and which later progression details remain unverified."
+          }
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "home": {
+      "template": "landing",
+      "focusSectionIds": [],
+      "groupIds": [
+        "progression"
+      ],
+      "journeyIds": [
+        "first-run"
+      ],
+      "destinations": [
+        {
+          "pageId": "beginner",
+          "label": {
+            "en": "Roll the World Beginner’s Guide"
+          },
+          "description": {
+            "en": "A practical first-run route through grass, paths and streets, with controls, index claims and the first star explained."
+          }
+        },
+        {
+          "pageId": "codes",
+          "label": {
+            "en": "Roll the World Codes: October 2026"
+          },
+          "description": {
+            "en": "The officially listed 1000LIKES reward, shop redemption guidance and checks for failed codes."
+          }
+        },
+        {
+          "pageId": "space",
+          "label": {
+            "en": "How to Unlock Space in Roll the World"
+          },
+          "description": {
+            "en": "The confirmed free space requirement, how stars differ from size, and which later progression details remain unverified."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "More about this run"
+      },
+      "scopeNote": {
+        "en": "Official description checked October 26, 2026; images are reviewed community gameplay."
+      },
+      "displayTitle": {
+        "en": "Start tiny. Roll up the world."
+      }
+    },
+    "guides": {
+      "template": "hub",
+      "focusSectionIds": [],
+      "groupIds": [
+        "progression"
+      ],
+      "journeyIds": [
+        "first-run"
+      ],
+      "destinations": [
+        {
+          "pageId": "beginner",
+          "label": {
+            "en": "Roll the World Beginner’s Guide"
+          },
+          "description": {
+            "en": "A practical first-run route through grass, paths and streets, with controls, index claims and the first star explained."
+          }
+        },
+        {
+          "pageId": "stars",
+          "label": {
+            "en": "Roll the World Stars & Rebirths"
+          },
+          "description": {
+            "en": "What star resets keep, verified size milestones, growth multipliers and the route to the sixth star."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "More about this run"
+      },
+      "scopeNote": {
+        "en": "Official description checked October 26, 2026; images are reviewed community gameplay."
+      }
+    },
+    "beginner": {
+      "template": "procedure",
+      "focusSectionIds": [
+        "controls",
+        "route",
+        "spend",
+        "first-star"
+      ],
+      "groupIds": [],
+      "journeyIds": [],
+      "destinations": [
+        {
+          "pageId": "upgrades",
+          "label": {
+            "en": "Roll the World Upgrades & Stardust"
+          },
+          "description": {
+            "en": "Compare growth, speed, stamina, magnet, luck and start size using the real upgrade panel."
+          }
+        },
+        {
+          "pageId": "stars",
+          "label": {
+            "en": "Roll the World Stars & Rebirths"
+          },
+          "description": {
+            "en": "What star resets keep, verified size milestones, growth multipliers and the route to the sixth star."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "More about this run"
+      },
+      "scopeNote": {
+        "en": "Official description checked October 26, 2026; images are reviewed community gameplay."
+      },
+      "procedure": {
+        "title": {
+          "en": "Your first run"
+        },
+        "scope": {
+          "en": "Follow the PC tutorial, then grow toward your first star."
+        },
+        "stages": [
+          {
+            "sectionId": "controls",
+            "action": {
+              "en": "Use WASD to roll and right-drag to look."
+            },
+            "success": {
+              "en": "The ball moves and the size ring is visible."
+            },
+            "fallback": {
+              "en": "Use platform controls on mobile or console."
+            }
+          },
+          {
+            "sectionId": "route",
+            "action": {
+              "en": "Collect smaller objects around the park and streets."
+            },
+            "success": {
+              "en": "Objects attach and the size increases."
+            },
+            "fallback": {
+              "en": "Return to smaller objects if a target will not attach."
+            }
+          },
+          {
+            "sectionId": "spend",
+            "action": {
+              "en": "Open upgrades and inspect growth."
+            },
+            "success": {
+              "en": "The balance and next effect are visible."
+            },
+            "fallback": {
+              "en": "Claim pending index rewards if short of stardust."
+            }
+          },
+          {
+            "sectionId": "first-star",
+            "action": {
+              "en": "Reach the first-star target and inspect the prompt."
+            },
+            "success": {
+              "en": "The star prompt appears at 50 studs."
+            },
+            "fallback": {
+              "en": "Read the star row if your target differs."
+            }
+          }
+        ]
+      }
+    },
+    "upgrades": {
+      "template": "comparison",
+      "focusSectionIds": [
+        "panel",
+        "compare",
+        "order",
+        "income"
+      ],
+      "groupIds": [],
+      "journeyIds": [],
+      "destinations": [
+        {
+          "pageId": "finds",
+          "label": {
+            "en": "Roll the World Finds & Rarities"
+          },
+          "description": {
+            "en": "Equip bonuses, protect useful rolls with locks, compare effects and sell unwanted finds carefully."
+          }
+        },
+        {
+          "pageId": "stars",
+          "label": {
+            "en": "Roll the World Stars & Rebirths"
+          },
+          "description": {
+            "en": "What star resets keep, verified size milestones, growth multipliers and the route to the sixth star."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "More about this run"
+      },
+      "scopeNote": {
+        "en": "Official description checked October 26, 2026; images are reviewed community gameplay."
+      },
+      "comparisonSectionId": "compare"
+    }
+  }
+}

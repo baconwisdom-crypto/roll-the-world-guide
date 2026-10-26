@@ -1,0 +1,68 @@
+[
+  {
+    "route": "/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/beginners-guide/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/stars-rebirths/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/upgrades/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/finds-rarities/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/sizes-areas/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/space-unlock/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/codes/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/guides/events-halloween/",
+    "locales": [
+      "en"
+    ]
+  },
+  {
+    "route": "/sources/",
+    "locales": [
+      "en"
+    ]
+  }
+]

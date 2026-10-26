@@ -1,0 +1,13 @@
+{
+  "localeSwitcher": {
+    "label": "Language",
+    "ariaLabel": "Change language",
+    "currentLabel": "Current language",
+    "locales": {
+      "en": "English",
+      "de": "Deutsch",
+      "fr": "Français",
+      "es": "Español"
+    }
+  }
+}

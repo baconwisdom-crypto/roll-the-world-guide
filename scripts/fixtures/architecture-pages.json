@@ -1,0 +1,1772 @@
+[
+  {
+    "page_id": "home",
+    "route": "/",
+    "section": "Home",
+    "title": {
+      "en": "Game Guide Framework",
+      "de": "Game-Guide-Framework",
+      "fr": "Framework de guide de jeu",
+      "es": "Framework de guías de juegos",
+      "ja": "ゲーム攻略フレームワーク"
+    },
+    "description": {
+      "en": "A neutral example site for reusable game-guide architecture, sources, and locale routing.",
+      "de": "Eine neutrale Beispielseite für wiederverwendbare Guide-Architektur, Quellen und Sprachrouting.",
+      "fr": "Un site neutre pour tester l’architecture, les sources et le routage multilingue d’un guide.",
+      "es": "Un sitio neutral para probar arquitectura, fuentes y rutas multilingües de una guía.",
+      "ja": "再利用可能な攻略サイトの構成、出典、言語ルーティングを検証する中立的な例です。"
+    },
+    "pageType": "Home",
+    "pageStatus": {
+      "en": "Framework example",
+      "de": "Framework-Beispiel",
+      "fr": "Exemple du framework",
+      "es": "Ejemplo del framework",
+      "ja": "フレームワーク例"
+    },
+    "intro": {
+      "en": "A small content registry drives the home page, navigation, metadata, sources, and language links.",
+      "de": "Eine kleine Inhaltsregistrierung steuert Startseite, Navigation, Metadaten, Quellen und Sprachlinks.",
+      "fr": "Un registre de contenu réduit pilote l’accueil, la navigation, les métadonnées, les sources et les liens de langue.",
+      "es": "Un registro de contenido pequeño controla el inicio, la navegación, los metadatos, las fuentes y los enlaces de idioma.",
+      "ja": "小さなコンテンツ登録表がホーム、ナビゲーション、メタデータ、出典、言語リンクを制御します。"
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "What this example proves",
+        "de": "Was dieses Beispiel zeigt",
+        "fr": "Ce que cet exemple démontre",
+        "es": "Qué demuestra este ejemplo",
+        "ja": "この例で確認できること"
+      },
+      "body": {
+        "en": "Published pages are selected from content data. The same renderer can serve an English path or a locale-prefixed path without duplicating game-specific components.",
+        "de": "Veröffentlichte Seiten werden aus Inhaltsdaten ausgewählt. Derselbe Renderer kann englische und sprachpräfixierte Pfade bedienen.",
+        "fr": "Les pages publiées viennent des données de contenu. Le même rendu sert les chemins anglais et préfixés sans dupliquer les composants propres au jeu.",
+        "es": "Las páginas publicadas se seleccionan desde los datos de contenido. El mismo renderizador sirve rutas inglesas y con prefijo sin duplicar componentes del juego.",
+        "ja": "公開ページはコンテンツデータから選ばれます。同じレンダラーで英語パスとロケール付きパスを処理できます。"
+      },
+      "status": {
+        "en": "Schema example",
+        "de": "Schema-Beispiel",
+        "fr": "Exemple de schéma",
+        "es": "Ejemplo de esquema",
+        "ja": "スキーマ例"
+      }
+    },
+    "primaryAction": {
+      "label": {
+        "en": "Explore the layouts"
+      },
+      "pageId": "guides-hub"
+    },
+    "sections": [
+      {
+        "id": "registry",
+        "title": {
+          "en": "Content registry",
+          "de": "Inhaltsregistrierung",
+          "fr": "Registre de contenu",
+          "es": "Registro de contenido",
+          "ja": "コンテンツ登録"
+        },
+        "summary": {
+          "en": "Each record declares its route, page type, source IDs, locale availability, publication status, and internal relationships.",
+          "de": "Jeder Datensatz erklärt Route, Seitentyp, Quellen-IDs, Sprachverfügbarkeit, Veröffentlichungsstatus und Beziehungen.",
+          "fr": "Chaque entrée déclare sa route, son type, ses sources, ses langues, son statut de publication et ses relations.",
+          "es": "Cada registro declara ruta, tipo de página, fuentes, idiomas disponibles, estado de publicación y relaciones.",
+          "ja": "各レコードがルート、ページ種別、出典 ID、対応言語、公開状態、関連ページを宣言します。"
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "Guide hub",
+              "de": "Guide-Hub",
+              "fr": "Hub des guides",
+              "es": "Hub de guías",
+              "ja": "攻略ハブ"
+            },
+            "summary": {
+              "en": "A neutral landing page for guide content.",
+              "de": "Eine neutrale Einstiegsseite für Guide-Inhalte.",
+              "fr": "Une page d’entrée neutre pour le contenu de guide.",
+              "es": "Una página neutral para entrar en el contenido de guías.",
+              "ja": "攻略コンテンツへの中立的な入口です。"
+            },
+            "pageId": "guides-hub",
+            "status": {
+              "en": "Published example",
+              "de": "Veröffentlichtes Beispiel",
+              "fr": "Exemple publié",
+              "es": "Ejemplo publicado",
+              "ja": "公開例"
+            }
+          },
+          {
+            "title": {
+              "en": "Characters hub",
+              "de": "Charakter-Hub",
+              "fr": "Hub des personnages",
+              "es": "Hub de personajes",
+              "ja": "キャラクターハブ"
+            },
+            "summary": {
+              "en": "A second content type using the same page shell.",
+              "de": "Ein zweiter Inhaltstyp mit derselben Seitenhülle.",
+              "fr": "Un second type de contenu avec la même structure.",
+              "es": "Un segundo tipo de contenido con la misma estructura.",
+              "ja": "同じページ構造で別のコンテンツ種別を表示します。"
+            },
+            "pageId": "characters-hub",
+            "status": {
+              "en": "Published example",
+              "de": "Veröffentlichtes Beispiel",
+              "fr": "Exemple publié",
+              "es": "Ejemplo publicado",
+              "ja": "公開例"
+            }
+          }
+        ],
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      },
+      {
+        "id": "locale-routing",
+        "title": {
+          "en": "Locale-aware paths",
+          "de": "Sprachabhängige Pfade",
+          "fr": "Chemins selon la langue",
+          "es": "Rutas según el idioma",
+          "ja": "言語別パス"
+        },
+        "paragraphs": [
+          {
+            "en": "English keeps the root path. German, French, Spanish, and Japanese use a prefix. A page only exposes language links declared in its locale availability list.",
+            "de": "Englisch bleibt ohne Präfix. Deutsch, Französisch, Spanisch und Japanisch verwenden ein Präfix. Eine Seite zeigt nur verfügbare Sprachlinks.",
+            "fr": "L’anglais garde le chemin racine. L’allemand, le français, l’espagnol et le japonais utilisent un préfixe. Une page n’affiche que les langues disponibles.",
+            "es": "El inglés conserva la ruta raíz. Alemán, francés, español y japonés usan prefijo. Cada página muestra solo los idiomas declarados.",
+            "ja": "英語はルート直下に置き、ドイツ語、フランス語、スペイン語、日本語には接頭辞を付けます。利用可能な言語だけを表示します。"
+          }
+        ],
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": {
+          "en": "Where does navigation come from?",
+          "de": "Woher kommt die Navigation?",
+          "fr": "D’où vient la navigation ?",
+          "es": "¿De dónde sale la navegación?",
+          "ja": "ナビゲーションはどこから作られますか？"
+        },
+        "answer": {
+          "en": "Published page records with a navigation label become navigation items. Components contain no game-specific section list.",
+          "de": "Veröffentlichte Seiten mit Navigationslabel werden zu Navigationseinträgen. Komponenten enthalten keine spielfeste Abschnittsliste.",
+          "fr": "Les pages publiées qui ont un libellé de navigation deviennent des entrées. Les composants ne contiennent aucune liste propre au jeu.",
+          "es": "Las páginas publicadas con etiqueta de navegación se convierten en enlaces. Los componentes no contienen una lista fija del juego.",
+          "ja": "ナビゲーションラベルを持つ公開ページから項目を作ります。コンポーネントにゲーム固有の一覧はありません。"
+        }
+      }
+    ],
+    "boundary": {
+      "title": {
+        "en": "Example boundary",
+        "de": "Beispielgrenze",
+        "fr": "Limite de l’exemple",
+        "es": "Límite del ejemplo",
+        "ja": "例の範囲"
+      },
+      "items": [
+        {
+          "en": "The sample pages contain no game characters, story details, or game-specific images.",
+          "de": "Die Beispielseiten enthalten keine Spielfiguren, Handlungsdetails oder spielbezogenen Bilder.",
+          "fr": "Les pages d’exemple ne contiennent ni personnages, ni détails narratifs, ni images propres à un jeu.",
+          "es": "Las páginas de ejemplo no contienen personajes, historia ni imágenes de un juego concreto.",
+          "ja": "サンプルページにはゲーム固有の人物、物語、画像を含めません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [
+      {
+        "id": "FRAMEWORK-001",
+        "statement": {
+          "en": "The App Router supports route-level metadata and special sitemap and robots files.",
+          "de": "Der App Router unterstützt routenbezogene Metadaten sowie spezielle Sitemap- und Robots-Dateien.",
+          "fr": "L’App Router prend en charge les métadonnées par route ainsi que les fichiers sitemap et robots.",
+          "es": "App Router admite metadatos por ruta y archivos especiales de sitemap y robots.",
+          "ja": "App Router はルート単位のメタデータと sitemap、robots の特殊ファイルに対応します。"
+        },
+        "sourceId": "framework-next-routing",
+        "evidenceType": {
+          "en": "Official documentation",
+          "de": "Offizielle Dokumentation",
+          "fr": "Documentation officielle",
+          "es": "Documentación oficial",
+          "ja": "公式ドキュメント"
+        },
+        "verificationStatus": {
+          "en": "Official",
+          "de": "Offiziell",
+          "fr": "Officiel",
+          "es": "Oficial",
+          "ja": "公式"
+        },
+        "spoilerLevel": {
+          "en": "No spoiler",
+          "de": "Keine Spoiler",
+          "fr": "Aucun spoiler",
+          "es": "Sin spoilers",
+          "ja": "ネタバレなし"
+        },
+        "notes": {
+          "en": "Schema demonstration only.",
+          "de": "Nur eine Schema-Demonstration.",
+          "fr": "Démonstration du schéma uniquement.",
+          "es": "Solo demuestra el esquema.",
+          "ja": "スキーマの例のみです。"
+        }
+      }
+    ],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides-hub",
+      "characters-hub",
+      "sources",
+      "spoiler-boundary"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published"
+  },
+  {
+    "page_id": "guides-hub",
+    "route": "/guides/",
+    "section": "Guides",
+    "title": {
+      "en": "Guide Hub",
+      "de": "Guide-Hub",
+      "fr": "Hub des guides",
+      "es": "Hub de guías",
+      "ja": "攻略ハブ"
+    },
+    "description": {
+      "en": "A neutral guide hub showing how article pages are registered and linked.",
+      "de": "Ein neutraler Guide-Hub zur Registrierung und Verknüpfung von Artikelseiten.",
+      "fr": "Un hub neutre montrant comment enregistrer et relier les articles.",
+      "es": "Un hub neutral que muestra cómo registrar y enlazar artículos.",
+      "ja": "記事ページの登録とリンク方法を示す中立的な攻略ハブです。"
+    },
+    "pageType": "Hub",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "Hubs answer a broad question and route readers to focused articles.",
+      "de": "Hubs beantworten eine breite Frage und führen zu fokussierten Artikeln.",
+      "fr": "Les hubs répondent à une question large et orientent vers des articles ciblés.",
+      "es": "Los hubs responden una pregunta amplia y llevan a artículos concretos.",
+      "ja": "ハブは大きな疑問に答え、詳細記事へ案内します。"
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Use a hub when",
+        "de": "Nutze einen Hub, wenn",
+        "fr": "Utilisez un hub quand",
+        "es": "Usa un hub cuando",
+        "ja": "ハブを使う場面"
+      },
+      "body": {
+        "en": "A reader needs orientation before choosing a specific page.",
+        "de": "Leser zuerst Orientierung brauchen, bevor sie eine bestimmte Seite wählen.",
+        "fr": "le lecteur a besoin d’une vue d’ensemble avant de choisir une page.",
+        "es": "el lector necesita orientación antes de elegir una página.",
+        "ja": "詳細ページを選ぶ前に全体像を確認したいときです。"
+      },
+      "status": {
+        "en": "Page type: Hub",
+        "de": "Seitentyp: Hub",
+        "fr": "Type : Hub",
+        "es": "Tipo: Hub",
+        "ja": "ページ種別: Hub"
+      }
+    },
+    "sections": [
+      {
+        "id": "hub-role",
+        "title": {
+          "en": "The hub role",
+          "de": "Die Rolle des Hubs",
+          "fr": "Le rôle du hub",
+          "es": "La función del hub",
+          "ja": "ハブの役割"
+        },
+        "paragraphs": [
+          {
+            "en": "Keep the hub concise. Put the shared vocabulary and the next decision here, then let article pages carry the deeper evidence.",
+            "de": "Der Hub bleibt kompakt. Gemeinsame Begriffe und die nächste Entscheidung gehören hierher; die tieferen Belege bleiben in Artikeln.",
+            "fr": "Gardez le hub concis. Il rassemble le vocabulaire et la prochaine décision, tandis que les articles portent les preuves détaillées.",
+            "es": "Mantén el hub conciso. Aquí van el vocabulario común y la siguiente decisión; los artículos contienen la evidencia detallada.",
+            "ja": "ハブは簡潔に保ちます。共通用語と次の判断を置き、詳しい根拠は記事側にまとめます。"
+          }
+        ],
+        "cards": [
+          {
+            "title": {
+              "en": "Field Notes",
+              "de": "Feldnotizen",
+              "fr": "Notes de terrain",
+              "es": "Notas de campo",
+              "ja": "フィールドノート"
+            },
+            "summary": {
+              "en": "A worked example of a focused guide article.",
+              "de": "Ein ausgearbeitetes Beispiel für einen fokussierten Guide-Artikel.",
+              "fr": "Un exemple d’article de guide ciblé.",
+              "es": "Un ejemplo de artículo de guía enfocado.",
+              "ja": "詳細攻略記事の例です。"
+            },
+            "pageId": "guide-field-notes"
+          },
+          {
+            "title": {
+              "en": "Spoiler Boundary",
+              "de": "Spoiler-Grenze",
+              "fr": "Limite des spoilers",
+              "es": "Límite de spoilers",
+              "ja": "ネタバレ範囲"
+            },
+            "summary": {
+              "en": "A clear place to explain spoiler levels.",
+              "de": "Ein klarer Ort für Spoilerstufen.",
+              "fr": "Un espace clair pour expliquer les niveaux de spoiler.",
+              "es": "Un lugar claro para explicar los niveles de spoiler.",
+              "ja": "ネタバレ段階を説明するページです。"
+            },
+            "pageId": "spoiler-boundary"
+          }
+        ],
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Scope",
+        "de": "Umfang",
+        "fr": "Périmètre",
+        "es": "Alcance",
+        "ja": "範囲"
+      },
+      "items": [
+        {
+          "en": "This hub has no game-specific facts.",
+          "de": "Dieser Hub enthält keine spielfesten Fakten.",
+          "fr": "Ce hub ne contient aucun fait propre à un jeu.",
+          "es": "Este hub no contiene hechos de un juego concreto.",
+          "ja": "このハブにはゲーム固有の事実はありません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guide-field-notes",
+      "characters-hub",
+      "sources"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Guides",
+        "de": "Guides",
+        "fr": "Guides",
+        "es": "Guías",
+        "ja": "攻略"
+      },
+      "order": 1
+    }
+  },
+  {
+    "page_id": "guide-field-notes",
+    "route": "/guides/field-notes/",
+    "section": "Guides",
+    "title": {
+      "en": "Field Notes: A Guide Article",
+      "de": "Feldnotizen: Ein Guide-Artikel",
+      "fr": "Notes de terrain : un article",
+      "es": "Notas de campo: un artículo",
+      "ja": "フィールドノート: 攻略記事"
+    },
+    "description": {
+      "en": "A neutral article example with sections, a table, source evidence, and a spoiler boundary.",
+      "de": "Ein neutraler Artikel mit Abschnitten, Tabelle, Quellenbelegen und Spoilergrenze.",
+      "fr": "Un article neutre avec sections, tableau, preuves et limite de spoilers.",
+      "es": "Un artículo neutral con secciones, tabla, fuentes y límite de spoilers.",
+      "ja": "セクション、表、出典、ネタバレ範囲を備えた中立的な記事例です。"
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "This page demonstrates the reusable article contract without relying on any game's characters, plot, or systems.",
+      "de": "Diese Seite zeigt den wiederverwendbaren Artikelvertrag ohne Figuren, Handlung oder Systeme eines Spiels.",
+      "fr": "Cette page montre le contrat d’article réutilisable sans personnages, intrigue ni systèmes de jeu.",
+      "es": "Esta página demuestra el contrato reutilizable sin personajes, historia ni sistemas de un juego.",
+      "ja": "ゲーム固有の人物、物語、システムを使わずに再利用可能な記事構造を示します。"
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer",
+        "de": "Kurzantwort",
+        "fr": "Réponse rapide",
+        "es": "Respuesta rápida",
+        "ja": "クイック回答"
+      },
+      "body": {
+        "en": "A guide article should answer the reader's immediate question before expanding into evidence and edge cases.",
+        "de": "Ein Guide-Artikel beantwortet zuerst die unmittelbare Frage und geht danach auf Belege und Sonderfälle ein.",
+        "fr": "Un article de guide répond d’abord à la question immédiate, puis détaille les preuves et les cas limites.",
+        "es": "Un artículo de guía responde primero la pregunta inmediata y después amplía con evidencia y casos límite.",
+        "ja": "攻略記事は最初に疑問へ答え、その後で根拠と例外を説明します。"
+      },
+      "status": {
+        "en": "Editorial pattern",
+        "de": "Redaktionelles Muster",
+        "fr": "Modèle éditorial",
+        "es": "Patrón editorial",
+        "ja": "編集パターン"
+      }
+    },
+    "sections": [
+      {
+        "id": "answer-first",
+        "title": {
+          "en": "Answer first",
+          "de": "Zuerst die Antwort",
+          "fr": "Répondre d’abord",
+          "es": "Responder primero",
+          "ja": "先に答える"
+        },
+        "summary": {
+          "en": "Put the usable conclusion near the top, then show how the source record supports it.",
+          "de": "Die nutzbare Schlussfolgerung steht oben; danach folgt die Begründung durch Quellen.",
+          "fr": "Placez la conclusion utile en haut, puis montrez comment les sources la soutiennent.",
+          "es": "Coloca la conclusión útil arriba y después muestra cómo la sostienen las fuentes.",
+          "ja": "使える結論を先に置き、出典がどう支えるかを続けます。"
+        },
+        "bullets": [
+          {
+            "en": "State what the reader can do now.",
+            "de": "Sage, was der Leser jetzt tun kann.",
+            "fr": "Indiquez ce que le lecteur peut faire maintenant.",
+            "es": "Indica qué puede hacer ahora el lector.",
+            "ja": "読者が今できることを示します。"
+          },
+          {
+            "en": "Keep unknown values visibly unknown.",
+            "de": "Unbekannte Werte bleiben sichtbar unbekannt.",
+            "fr": "Laissez les valeurs inconnues clairement inconnues.",
+            "es": "Mantén visibles los valores desconocidos.",
+            "ja": "不明な値は不明のまま表示します。"
+          }
+        ],
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      },
+      {
+        "id": "evidence-table",
+        "title": {
+          "en": "Compact evidence table",
+          "de": "Kompakte Evidenztabelle",
+          "fr": "Tableau de preuves compact",
+          "es": "Tabla de evidencia compacta",
+          "ja": "簡潔な根拠表"
+        },
+        "table": {
+          "columns": [
+            {
+              "en": "Question",
+              "de": "Frage",
+              "fr": "Question",
+              "es": "Pregunta",
+              "ja": "質問"
+            },
+            {
+              "en": "Page response",
+              "de": "Seitenantwort",
+              "fr": "Réponse",
+              "es": "Respuesta",
+              "ja": "ページの回答"
+            },
+            {
+              "en": "Boundary",
+              "de": "Grenze",
+              "fr": "Limite",
+              "es": "Límite",
+              "ja": "範囲"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "en": "Where is the source?",
+                "de": "Wo ist die Quelle?",
+                "fr": "Où est la source ?",
+                "es": "¿Dónde está la fuente?",
+                "ja": "出典はどこですか？"
+              },
+              {
+                "en": "Each evidence row keeps a source ID and public URL.",
+                "de": "Jede Evidenzzeile behält Quellen-ID und öffentliche URL.",
+                "fr": "Chaque ligne garde un ID et une URL publique.",
+                "es": "Cada fila conserva un ID y una URL pública.",
+                "ja": "各行に出典 ID と公開 URL を残します。"
+              },
+              {
+                "en": "A link does not prove more than the record says.",
+                "de": "Ein Link beweist nicht mehr als der Datensatz sagt.",
+                "fr": "Un lien ne prouve pas plus que l’entrée.",
+                "es": "Un enlace no prueba más que el registro.",
+                "ja": "リンクだけで記録以上のことは証明できません。"
+              }
+            ],
+            [
+              {
+                "en": "What is the page type?",
+                "de": "Welcher Seitentyp?",
+                "fr": "Quel type de page ?",
+                "es": "¿Qué tipo de página?",
+                "ja": "ページ種別は？"
+              },
+              {
+                "en": "The registry exposes GuideArticle.",
+                "de": "Die Registrierung weist GuideArticle aus.",
+                "fr": "Le registre indique GuideArticle.",
+                "es": "El registro declara GuideArticle.",
+                "ja": "登録表で GuideArticle を指定します。"
+              },
+              {
+                "en": "The type is a presentation hint, not a fact source.",
+                "de": "Der Typ ist ein Darstellungshinweis, keine Faktenquelle.",
+                "fr": "Le type guide l’affichage, pas la preuve.",
+                "es": "El tipo guía la presentación, no la evidencia.",
+                "ja": "種別は表示の手掛かりで、根拠そのものではありません。"
+              }
+            ]
+          ]
+        },
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": {
+          "en": "Can this renderer host a database page?",
+          "de": "Kann der Renderer eine Datenbankseite hosten?",
+          "fr": "Le rendu peut-il afficher une base ?",
+          "es": "¿Puede el renderizador mostrar una base?",
+          "ja": "このレンダラーでデータベースページを表示できますか？"
+        },
+        "answer": {
+          "en": "Yes. The page registry carries a page type and structured sections, so a game project can add a database-specific section without changing the route shell.",
+          "de": "Ja. Die Registrierung führt Seitentyp und strukturierte Abschnitte, sodass ein Spielprojekt Datenbankabschnitte ergänzen kann.",
+          "fr": "Oui. Le registre porte le type et les sections structurées, ce qui permet d’ajouter une section de base sans changer la route.",
+          "es": "Sí. El registro incluye tipo y secciones estructuradas, así que un proyecto puede añadir una sección de base sin cambiar la ruta.",
+          "ja": "はい。登録表にページ種別と構造化セクションがあるため、ルート構造を変えずに追加できます。"
+        }
+      }
+    ],
+    "boundary": {
+      "title": {
+        "en": "Reading boundary",
+        "de": "Leseschranke",
+        "fr": "Limite de lecture",
+        "es": "Límite de lectura",
+        "ja": "読み取り範囲"
+      },
+      "items": [
+        {
+          "en": "The example evidence row demonstrates provenance fields. It is not a game mechanic or an endorsement of a product claim.",
+          "de": "Die Beispielzeile zeigt Provenienzfelder. Sie ist keine Spielmechanik und keine Bestätigung eines Produktanspruchs.",
+          "fr": "La ligne d’exemple montre la provenance. Elle ne constitue ni une mécanique de jeu ni une validation commerciale.",
+          "es": "La fila de ejemplo muestra procedencia. No es una mecánica ni una validación de producto.",
+          "ja": "例の根拠行は出典フィールドを示すだけで、ゲーム仕様や製品主張の裏付けではありません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides-hub",
+      "sources",
+      "spoiler-boundary"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published"
+  },
+  {
+    "page_id": "characters-hub",
+    "route": "/characters/",
+    "section": "Characters",
+    "title": {
+      "en": "Characters Hub",
+      "de": "Charakter-Hub",
+      "fr": "Hub des personnages",
+      "es": "Hub de personajes",
+      "ja": "キャラクターハブ"
+    },
+    "description": {
+      "en": "A neutral database-style hub showing a second registered page type.",
+      "de": "Ein neutraler Datenbank-Hub für einen zweiten registrierten Seitentyp.",
+      "fr": "Un hub neutre de type base de données pour montrer un second type de page.",
+      "es": "Un hub neutral tipo base de datos para mostrar un segundo tipo de página.",
+      "ja": "別の登録ページ種別を示す中立的なデータベース風ハブです。"
+    },
+    "pageType": "Database",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "Database pages can keep compact records while sharing the same source, spoiler, and locale infrastructure.",
+      "de": "Datenbankseiten können kompakte Datensätze führen und dieselbe Quellen-, Spoiler- und Sprachinfrastruktur nutzen.",
+      "fr": "Les pages de base gardent des entrées compactes avec la même infrastructure de sources, spoilers et langues.",
+      "es": "Las páginas de base mantienen registros compactos con la misma infraestructura de fuentes, spoilers e idiomas.",
+      "ja": "データベースページは簡潔な記録を保持し、出典、ネタバレ、言語機能を共有できます。"
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Database pattern",
+        "de": "Datenbankmuster",
+        "fr": "Modèle de base",
+        "es": "Patrón de base",
+        "ja": "データベース構造"
+      },
+      "body": {
+        "en": "Use a database page for lookup-first content. Link to focused guides when a record needs context.",
+        "de": "Datenbankseiten eignen sich für Nachschlageinhalte. Für Kontext führen Links zu fokussierten Guides.",
+        "fr": "Utilisez une page de base pour consulter rapidement les entrées, puis liez les guides pour le contexte.",
+        "es": "Usa una página de base para consultar registros y enlaza guías cuando haga falta contexto.",
+        "ja": "検索中心の情報にはデータベースページを使い、詳しい文脈は攻略記事へリンクします。"
+      },
+      "status": {
+        "en": "Page type: Database",
+        "de": "Seitentyp: Datenbank",
+        "fr": "Type : Base de données",
+        "es": "Tipo: Base de datos",
+        "ja": "ページ種別: Database"
+      }
+    },
+    "sections": [
+      {
+        "id": "record-shape",
+        "title": {
+          "en": "Record shape",
+          "de": "Datensatzform",
+          "fr": "Structure d’une entrée",
+          "es": "Estructura del registro",
+          "ja": "レコード構造"
+        },
+        "table": {
+          "columns": [
+            {
+              "en": "Field",
+              "de": "Feld",
+              "fr": "Champ",
+              "es": "Campo",
+              "ja": "項目"
+            },
+            {
+              "en": "Purpose",
+              "de": "Zweck",
+              "fr": "But",
+              "es": "Uso",
+              "ja": "目的"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "en": "Page ID",
+                "de": "Seiten-ID",
+                "fr": "ID de page",
+                "es": "ID de página",
+                "ja": "ページ ID"
+              },
+              {
+                "en": "Stable identity for internal links and checks.",
+                "de": "Stabile Identität für Links und Prüfungen.",
+                "fr": "Identité stable pour les liens et vérifications.",
+                "es": "Identidad estable para enlaces y comprobaciones.",
+                "ja": "内部リンクと検査に使う安定 ID。"
+              }
+            ],
+            [
+              {
+                "en": "Locale availability",
+                "de": "Sprachverfügbarkeit",
+                "fr": "Langues disponibles",
+                "es": "Idiomas disponibles",
+                "ja": "対応言語"
+              },
+              {
+                "en": "Prevents links to pages that do not exist in a target language.",
+                "de": "Verhindert Links zu nicht vorhandenen Sprachseiten.",
+                "fr": "Évite les liens vers des pages absentes dans une langue.",
+                "es": "Evita enlaces a páginas inexistentes en un idioma.",
+                "ja": "対象言語に存在しないページへのリンクを防ぎます。"
+              }
+            ]
+          ]
+        },
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Neutral example",
+        "de": "Neutrales Beispiel",
+        "fr": "Exemple neutre",
+        "es": "Ejemplo neutral",
+        "ja": "中立的な例"
+      },
+      "items": [
+        {
+          "en": "No game roster or character facts are included.",
+          "de": "Es werden keine Spielfiguren- oder Kaderfakten verwendet.",
+          "fr": "Aucun fait de personnage ou de roster n’est inclus.",
+          "es": "No se incluyen hechos de personajes o plantillas.",
+          "ja": "ゲームの人物や名簿に関する事実は含めません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "home",
+      "guides-hub",
+      "sources"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Characters",
+        "de": "Charaktere",
+        "fr": "Personnages",
+        "es": "Personajes",
+        "ja": "キャラクター"
+      },
+      "order": 2
+    }
+  },
+  {
+    "page_id": "sources",
+    "route": "/sources/",
+    "section": "Sources",
+    "title": {
+      "en": "Sources",
+      "de": "Quellen",
+      "fr": "Sources",
+      "es": "Fuentes",
+      "ja": "出典"
+    },
+    "description": {
+      "en": "The neutral example source index and its evidence boundary.",
+      "de": "Der Quellenindex des neutralen Beispiels und seine Evidenzgrenze.",
+      "fr": "L’index des sources de l’exemple neutre et sa limite de preuve.",
+      "es": "El índice de fuentes del ejemplo neutral y su límite de evidencia.",
+      "ja": "中立的な例で使う出典一覧と根拠の範囲です。"
+    },
+    "pageType": "Source",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "Each page may show up to three first-party official sources in one block at the bottom.",
+      "de": "Jede Seite darf unten in einem einzigen Block bis zu drei offizielle Primärquellen anzeigen.",
+      "fr": "Chaque page peut afficher au bas de la page jusqu’à trois sources officielles de première main dans un seul bloc.",
+      "es": "Cada página puede mostrar al final hasta tres fuentes oficiales de primera mano en un único bloque.",
+      "ja": "各ページの最下部には、一次の公式出典を最大3件、1つのブロックで表示できます。"
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Source rule",
+        "de": "Quellenregel",
+        "fr": "Règle des sources",
+        "es": "Regla de fuentes",
+        "ja": "出典ルール"
+      },
+      "body": {
+        "en": "Competitor guides, fan wikis, third-party videos, and community research stay in internal evidence records.",
+        "de": "Konkurrenz-Guides, Fan-Wikis, Videos Dritter und Community-Recherchen bleiben in internen Evidenzdatensätzen.",
+        "fr": "Les guides concurrents, wikis de fans, vidéos tierces et recherches communautaires restent dans les preuves internes.",
+        "es": "Las guías de competidores, wikis de fans, videos de terceros e investigación comunitaria permanecen en los registros internos.",
+        "ja": "競合攻略、ファンWiki、第三者動画、コミュニティ調査は内部根拠レコードに保持します。"
+      },
+      "status": {
+        "en": "Official public sources",
+        "de": "Offizielle öffentliche Quellen",
+        "fr": "Sources publiques officielles",
+        "es": "Fuentes públicas oficiales",
+        "ja": "公開する公式出典"
+      }
+    },
+    "sections": [
+      {
+        "id": "source-record",
+        "title": {
+          "en": "Source record",
+          "de": "Quellendatensatz",
+          "fr": "Fiche source",
+          "es": "Registro de fuente",
+          "ja": "出典レコード"
+        },
+        "table": {
+          "columns": [
+            {
+              "en": "Field",
+              "de": "Feld",
+              "fr": "Champ",
+              "es": "Campo",
+              "ja": "項目"
+            },
+            {
+              "en": "Value",
+              "de": "Wert",
+              "fr": "Valeur",
+              "es": "Valor",
+              "ja": "値"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "en": "Publisher",
+                "de": "Herausgeber",
+                "fr": "Éditeur",
+                "es": "Editor",
+                "ja": "発行元"
+              },
+              {
+                "en": "Vercel",
+                "de": "Vercel",
+                "fr": "Vercel",
+                "es": "Vercel",
+                "ja": "Vercel"
+              }
+            ],
+            [
+              {
+                "en": "Public URL",
+                "de": "Öffentliche URL",
+                "fr": "URL publique",
+                "es": "URL pública",
+                "ja": "公開 URL"
+              },
+              {
+                "en": "Next.js App Router documentation",
+                "de": "Next.js App-Router-Dokumentation",
+                "fr": "Documentation Next.js App Router",
+                "es": "Documentación de Next.js App Router",
+                "ja": "Next.js App Router ドキュメント"
+              }
+            ]
+          ]
+        },
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Source boundary",
+        "de": "Quellengrenze",
+        "fr": "Limite de la source",
+        "es": "Límite de la fuente",
+        "ja": "出典の範囲"
+      },
+      "items": [
+        {
+          "en": "The source index records where an example came from. It does not turn documentation into a game claim.",
+          "de": "Der Quellenindex zeigt die Herkunft des Beispiels. Er macht daraus keine Spielfaktik.",
+          "fr": "L’index indique l’origine de l’exemple. Il n’en fait pas un fait de jeu.",
+          "es": "El índice muestra el origen del ejemplo. No lo convierte en un hecho del juego.",
+          "ja": "出典一覧は例の出所を示しますが、ゲームの事実には変えません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "home",
+      "guides-hub",
+      "guide-field-notes"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Sources",
+        "de": "Quellen",
+        "fr": "Sources",
+        "es": "Fuentes",
+        "ja": "出典"
+      },
+      "order": 3
+    }
+  },
+  {
+    "page_id": "spoiler-boundary",
+    "route": "/guides/spoiler-boundary/",
+    "section": "Guides",
+    "title": {
+      "en": "Spoiler Boundary",
+      "de": "Spoiler-Grenze",
+      "fr": "Limite des spoilers",
+      "es": "Límite de spoilers",
+      "ja": "ネタバレ範囲"
+    },
+    "description": {
+      "en": "A neutral page showing spoiler labels and publication boundaries.",
+      "de": "Eine neutrale Seite zu Spoilerlabels und Veröffentlichungsgrenzen.",
+      "fr": "Une page neutre sur les niveaux de spoiler et les limites de publication.",
+      "es": "Una página neutral sobre niveles de spoiler y límites de publicación.",
+      "ja": "ネタバレ表示と公開範囲を示す中立的なページです。"
+    },
+    "pageType": "Spoiler",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "A spoiler label tells readers how much story context a page may reveal before they open it.",
+      "de": "Ein Spoilerlabel zeigt, wie viel Handlungskontext eine Seite vor dem Öffnen preisgeben kann.",
+      "fr": "Un niveau de spoiler indique le contexte narratif qu’une page peut révéler.",
+      "es": "Una etiqueta de spoiler indica cuánto contexto narrativo puede revelar una página.",
+      "ja": "ネタバレ表示は、ページを開く前に物語情報の量を伝えます。"
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Use explicit labels",
+        "de": "Explizite Labels verwenden",
+        "fr": "Utiliser des labels explicites",
+        "es": "Usar etiquetas explícitas",
+        "ja": "明示的なラベルを使う"
+      },
+      "body": {
+        "en": "Keep the label close to the title and repeat the boundary where a section changes risk.",
+        "de": "Das Label steht nahe am Titel und wird bei einem Abschnittswechsel wiederholt.",
+        "fr": "Placez le label près du titre et répétez la limite si une section change de niveau.",
+        "es": "Coloca la etiqueta junto al título y repítela cuando cambie el nivel.",
+        "ja": "タイトルの近くに表示し、セクションで範囲が変わるとき再表示します。"
+      },
+      "status": {
+        "en": "Editorial policy",
+        "de": "Redaktionelle Richtlinie",
+        "fr": "Politique éditoriale",
+        "es": "Política editorial",
+        "ja": "編集ポリシー"
+      }
+    },
+    "sections": [
+      {
+        "id": "levels",
+        "title": {
+          "en": "Example levels",
+          "de": "Beispielstufen",
+          "fr": "Niveaux d’exemple",
+          "es": "Niveles de ejemplo",
+          "ja": "表示レベル"
+        },
+        "cards": [
+          {
+            "title": {
+              "en": "No spoiler",
+              "de": "Keine Spoiler",
+              "fr": "Aucun spoiler",
+              "es": "Sin spoilers",
+              "ja": "ネタバレなし"
+            },
+            "summary": {
+              "en": "Introductory information and neutral terminology.",
+              "de": "Einführung und neutrale Begriffe.",
+              "fr": "Informations d’introduction et termes neutres.",
+              "es": "Información introductoria y términos neutrales.",
+              "ja": "導入情報と中立的な用語。"
+            }
+          },
+          {
+            "title": {
+              "en": "Light spoiler",
+              "de": "Leichte Spoiler",
+              "fr": "Spoilers légers",
+              "es": "Spoilers leves",
+              "ja": "軽いネタバレ"
+            },
+            "summary": {
+              "en": "Named locations or systems that may reveal a small amount of context.",
+              "de": "Benannte Orte oder Systeme mit wenig Kontext.",
+              "fr": "Lieux ou systèmes nommés avec peu de contexte narratif.",
+              "es": "Lugares o sistemas nombrados con poco contexto.",
+              "ja": "少量の文脈を含む場所名やシステム。"
+            }
+          },
+          {
+            "title": {
+              "en": "Major spoiler",
+              "de": "Große Spoiler",
+              "fr": "Spoilers majeurs",
+              "es": "Spoilers importantes",
+              "ja": "重大なネタバレ"
+            },
+            "summary": {
+              "en": "Story outcomes or identity information that requires a warning.",
+              "de": "Handlungsausgänge oder Identitäten mit Warnhinweis.",
+              "fr": "Résultats narratifs ou identités nécessitant un avertissement.",
+              "es": "Resultados narrativos o identidades que requieren aviso.",
+              "ja": "物語の結末や正体に関わる情報。"
+            }
+          }
+        ],
+        "sourceIds": [
+          "framework-next-routing"
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Publication boundary",
+        "de": "Veröffentlichungsgrenze",
+        "fr": "Limite de publication",
+        "es": "Límite de publicación",
+        "ja": "公開範囲"
+      },
+      "items": [
+        {
+          "en": "Planned or internal-hold pages are excluded from navigation and sitemap until their publication status changes.",
+          "de": "Geplante oder zurückgehaltene Seiten fehlen in Navigation und Sitemap, bis ihr Status geändert wird.",
+          "fr": "Les pages planifiées ou retenues restent hors navigation et sitemap jusqu’à changement de statut.",
+          "es": "Las páginas planificadas o retenidas quedan fuera de navegación y sitemap hasta cambiar de estado.",
+          "ja": "Planned や internal-hold のページは公開状態が変わるまでナビゲーションと sitemap から除外します。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "Spoiler-labeled",
+      "de": "Mit Spoilerlabel",
+      "fr": "Avec niveau de spoiler",
+      "es": "Con etiqueta de spoiler",
+      "ja": "ネタバレ表示あり"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides-hub",
+      "guide-field-notes",
+      "sources"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published"
+  },
+  {
+    "page_id": "reference-library",
+    "route": "/patterns/reference-library/",
+    "section": "Guides",
+    "title": {
+      "en": "Reference library"
+    },
+    "description": {
+      "en": "Neutral example: reference library. Replace the sample with verified game content."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "Explore this reusable task layout with clearly labeled example content."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "These records demonstrate interface behavior. They do not describe a real game."
+      },
+      "status": {
+        "en": "Neutral example"
+      }
+    },
+    "sections": [
+      {
+        "id": "records",
+        "title": {
+          "en": "Find a sample record"
+        },
+        "paragraphs": [
+          {
+            "en": "These invented entries demonstrate search and expansion."
+          }
+        ],
+        "sourceNote": {
+          "en": "Synthetic sample records, with no real game claims."
+        },
+        "catalog": {
+          "searchLabel": {
+            "en": "Search sample records"
+          },
+          "placeholder": {
+            "en": "Try Amber or Slate"
+          },
+          "resultLabel": {
+            "en": "sample records shown"
+          },
+          "clearLabel": {
+            "en": "Clear search"
+          },
+          "emptyLabel": {
+            "en": "No matching sample. Try a different name."
+          },
+          "fields": [
+            {
+              "en": "Category"
+            },
+            {
+              "en": "Evidence"
+            }
+          ],
+          "rows": [
+            {
+              "name": {
+                "en": "Amber Token"
+              },
+              "location": {
+                "en": "Illustrative entry"
+              },
+              "values": [
+                {
+                  "en": "Resource"
+                },
+                {
+                  "en": "Synthetic example"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Slate Token"
+              },
+              "location": {
+                "en": "Illustrative entry"
+              },
+              "values": [
+                {
+                  "en": "Resource"
+                },
+                {
+                  "en": "Synthetic example"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Sample Compass"
+              },
+              "location": {
+                "en": "Illustrative entry"
+              },
+              "values": [
+                {
+                  "en": "Tool"
+                },
+                {
+                  "en": "Synthetic example"
+                }
+              ]
+            },
+            {
+              "name": {
+                "en": "Practice Journal"
+              },
+              "location": {
+                "en": "Illustrative entry"
+              },
+              "values": [
+                {
+                  "en": "Reference"
+                },
+                {
+                  "en": "Synthetic example"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "catalog-notes",
+        "title": {
+          "en": "How to read the sample"
+        },
+        "paragraphs": [
+          {
+            "en": "Replace names and shared fields using verified source material."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Reading boundary",
+        "de": "Leseschranke",
+        "fr": "Limite de lecture",
+        "es": "Límite de lectura",
+        "ja": "読み取り範囲"
+      },
+      "items": [
+        {
+          "en": "The example evidence row demonstrates provenance fields. It is not a game mechanic or an endorsement of a product claim.",
+          "de": "Die Beispielzeile zeigt Provenienzfelder. Sie ist keine Spielmechanik und keine Bestätigung eines Produktanspruchs.",
+          "fr": "La ligne d’exemple montre la provenance. Elle ne constitue ni une mécanique de jeu ni une validation commerciale.",
+          "es": "La fila de ejemplo muestra procedencia. No es una mecánica ni una validación de producto.",
+          "ja": "例の根拠行は出典フィールドを示すだけで、ゲーム仕様や製品主張の裏付けではありません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides-hub"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published",
+    "navLabel": {
+      "en": "Reference library"
+    },
+    "navGroup": "Guides"
+  },
+  {
+    "page_id": "decision-table",
+    "route": "/patterns/decision-table/",
+    "section": "Guides",
+    "title": {
+      "en": "Compare two choices"
+    },
+    "description": {
+      "en": "Neutral example: compare two choices. Replace the sample with verified game content."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "Explore this reusable task layout with clearly labeled example content."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "These records demonstrate interface behavior. They do not describe a real game."
+      },
+      "status": {
+        "en": "Neutral example"
+      }
+    },
+    "sections": [
+      {
+        "id": "criteria",
+        "title": {
+          "en": "Comparison criteria"
+        },
+        "paragraphs": [
+          {
+            "en": "Use consistent criteria before selecting an option."
+          }
+        ],
+        "table": {
+          "columns": [
+            {
+              "en": "Criterion"
+            },
+            {
+              "en": "Choice A"
+            },
+            {
+              "en": "Choice B"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "en": "Evidence"
+              },
+              {
+                "en": "Has a source record"
+              },
+              {
+                "en": "Needs verification"
+              }
+            ],
+            [
+              {
+                "en": "Next action"
+              },
+              {
+                "en": "Inspect the evidence"
+              },
+              {
+                "en": "Keep the result unknown"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "decision-notes",
+        "title": {
+          "en": "Decision boundaries"
+        },
+        "paragraphs": [
+          {
+            "en": "Example workflow only. No item ranking or game statistic is asserted."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Reading boundary",
+        "de": "Leseschranke",
+        "fr": "Limite de lecture",
+        "es": "Límite de lectura",
+        "ja": "読み取り範囲"
+      },
+      "items": [
+        {
+          "en": "The example evidence row demonstrates provenance fields. It is not a game mechanic or an endorsement of a product claim.",
+          "de": "Die Beispielzeile zeigt Provenienzfelder. Sie ist keine Spielmechanik und keine Bestätigung eines Produktanspruchs.",
+          "fr": "La ligne d’exemple montre la provenance. Elle ne constitue ni une mécanique de jeu ni une validation commerciale.",
+          "es": "La fila de ejemplo muestra procedencia. No es una mecánica ni una validación de producto.",
+          "ja": "例の根拠行は出典フィールドを示すだけで、ゲーム仕様や製品主張の裏付けではありません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides-hub"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published",
+    "navLabel": {
+      "en": "Compare two choices"
+    },
+    "navGroup": "Guides"
+  },
+  {
+    "page_id": "guided-process",
+    "route": "/patterns/guided-process/",
+    "section": "Guides",
+    "title": {
+      "en": "Follow a process"
+    },
+    "description": {
+      "en": "Neutral example: follow a process. Replace the sample with verified game content."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "Explore this reusable task layout with clearly labeled example content."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "These records demonstrate interface behavior. They do not describe a real game."
+      },
+      "status": {
+        "en": "Neutral example"
+      }
+    },
+    "sections": [
+      {
+        "id": "prepare",
+        "title": {
+          "en": "Prepare the inputs"
+        },
+        "paragraphs": [
+          {
+            "en": "Gather the question and the relevant source record."
+          }
+        ]
+      },
+      {
+        "id": "review",
+        "title": {
+          "en": "Review the evidence"
+        },
+        "paragraphs": [
+          {
+            "en": "Check whether the source supports the exact claim."
+          }
+        ]
+      },
+      {
+        "id": "record",
+        "title": {
+          "en": "Record the result"
+        },
+        "paragraphs": [
+          {
+            "en": "Save the conclusion with its limits."
+          }
+        ]
+      },
+      {
+        "id": "process-notes",
+        "title": {
+          "en": "Why checkpoints help"
+        },
+        "paragraphs": [
+          {
+            "en": "A checkpoint makes an unfinished task visible."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Reading boundary",
+        "de": "Leseschranke",
+        "fr": "Limite de lecture",
+        "es": "Límite de lectura",
+        "ja": "読み取り範囲"
+      },
+      "items": [
+        {
+          "en": "The example evidence row demonstrates provenance fields. It is not a game mechanic or an endorsement of a product claim.",
+          "de": "Die Beispielzeile zeigt Provenienzfelder. Sie ist keine Spielmechanik und keine Bestätigung eines Produktanspruchs.",
+          "fr": "La ligne d’exemple montre la provenance. Elle ne constitue ni une mécanique de jeu ni une validation commerciale.",
+          "es": "La fila de ejemplo muestra procedencia. No es una mecánica ni una validación de producto.",
+          "ja": "例の根拠行は出典フィールドを示すだけで、ゲーム仕様や製品主張の裏付けではありません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides-hub"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published",
+    "navLabel": {
+      "en": "Follow a process"
+    },
+    "navGroup": "Guides"
+  },
+  {
+    "page_id": "diagnostic-guide",
+    "route": "/patterns/diagnostic-guide/",
+    "section": "Guides",
+    "title": {
+      "en": "Find the next check"
+    },
+    "description": {
+      "en": "Neutral example: find the next check. Replace the sample with verified game content."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Published example",
+      "de": "Veröffentlichtes Beispiel",
+      "fr": "Exemple publié",
+      "es": "Ejemplo publicado",
+      "ja": "公開例"
+    },
+    "intro": {
+      "en": "Explore this reusable task layout with clearly labeled example content."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "These records demonstrate interface behavior. They do not describe a real game."
+      },
+      "status": {
+        "en": "Neutral example"
+      }
+    },
+    "sections": [
+      {
+        "id": "missing-record",
+        "title": {
+          "en": "A record cannot be found"
+        },
+        "paragraphs": [
+          {
+            "en": "Check the page ID and publication status before changing the route."
+          }
+        ]
+      },
+      {
+        "id": "missing-evidence",
+        "title": {
+          "en": "A value lacks evidence"
+        },
+        "paragraphs": [
+          {
+            "en": "Keep the value unknown until an appropriate source is available."
+          }
+        ]
+      },
+      {
+        "id": "diagnostic-notes",
+        "title": {
+          "en": "Scope of the sample"
+        },
+        "paragraphs": [
+          {
+            "en": "These are content-authoring examples, not game bug remedies."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Reading boundary",
+        "de": "Leseschranke",
+        "fr": "Limite de lecture",
+        "es": "Límite de lectura",
+        "ja": "読み取り範囲"
+      },
+      "items": [
+        {
+          "en": "The example evidence row demonstrates provenance fields. It is not a game mechanic or an endorsement of a product claim.",
+          "de": "Die Beispielzeile zeigt Provenienzfelder. Sie ist keine Spielmechanik und keine Bestätigung eines Produktanspruchs.",
+          "fr": "La ligne d’exemple montre la provenance. Elle ne constitue ni une mécanique de jeu ni une validation commerciale.",
+          "es": "La fila de ejemplo muestra procedencia. No es una mecánica ni una validación de producto.",
+          "ja": "例の根拠行は出典フィールドを示すだけで、ゲーム仕様や製品主張の裏付けではありません。"
+        }
+      ]
+    },
+    "sourceIds": [
+      "framework-next-routing"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "No spoiler",
+      "de": "Keine Spoiler",
+      "fr": "Aucun spoiler",
+      "es": "Sin spoilers",
+      "ja": "ネタバレなし"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides-hub"
+    ],
+    "localeAvailability": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja"
+    ],
+    "publicationStatus": "published",
+    "navLabel": {
+      "en": "Find the next check"
+    },
+    "navGroup": "Guides"
+  }
+]

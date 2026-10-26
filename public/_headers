@@ -1,0 +1,8 @@
+/*
+  X-Content-Type-Options: nosniff
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+https://:deployment.:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, noarchive

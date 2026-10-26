@@ -1,0 +1,54 @@
+[
+  {
+    "id": "official-game",
+    "name": "Roll the World on Roblox",
+    "publisher": "overzeer / Roblox",
+    "type": "Official game page",
+    "url": "https://www.roblox.com/games/97342490021056/roll-the-world",
+    "lastChecked": "2026-10-26",
+    "status": "Official",
+    "publicUse": "official-first-party",
+    "note": {
+      "en": "Canonical game identity and developer description."
+    }
+  },
+  {
+    "id": "official-group",
+    "name": "overzeer on Roblox",
+    "publisher": "overzeer",
+    "type": "Official developer group",
+    "url": "https://www.roblox.com/communities/5357472/overzeer",
+    "lastChecked": "2026-10-26",
+    "status": "Official",
+    "publicUse": "official-first-party",
+    "note": {
+      "en": "Creator group matched through the official game API."
+    }
+  },
+  {
+    "id": "video-pz9iyGbWdpU",
+    "name": "Full Game Roll the World, no commentary",
+    "publisher": "RobloMine",
+    "type": "Community gameplay video",
+    "url": "https://www.youtube.com/watch?v=pz9iyGbWdpU",
+    "lastChecked": "2026-10-26",
+    "status": "Reviewed gameplay",
+    "publicUse": "internal-only",
+    "note": {
+      "en": "Frames manually reviewed; timecodes and passage bindings retained internally."
+    }
+  },
+  {
+    "id": "video-aFcQiF6YHjQ",
+    "name": "Roll the World codes gameplay",
+    "publisher": "POCKET-CODES",
+    "type": "Community gameplay video",
+    "url": "https://www.youtube.com/watch?v=aFcQiF6YHjQ",
+    "lastChecked": "2026-10-26",
+    "status": "Reviewed gameplay",
+    "publicUse": "internal-only",
+    "note": {
+      "en": "Frames manually reviewed; timecodes and passage bindings retained internally."
+    }
+  }
+]

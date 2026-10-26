@@ -1,0 +1,620 @@
+{
+  "version": 1,
+  "ui": {
+    "topics": {
+      "en": "Guide topics"
+    },
+    "chooseTask": {
+      "en": "What do you want to do?"
+    },
+    "browseTopics": {
+      "en": "Browse by task"
+    },
+    "pathways": {
+      "en": "Suggested reading routes"
+    },
+    "openTopic": {
+      "en": "Open topic"
+    },
+    "allGuides": {
+      "en": "All guides in this topic"
+    },
+    "onPage": {
+      "en": "In this guide"
+    },
+    "nextTask": {
+      "en": "Your next step"
+    },
+    "support": {
+      "en": "Supporting guidance"
+    },
+    "evidence": {
+      "en": "Scope and sources"
+    },
+    "faq": {
+      "en": "Questions and answers"
+    },
+    "primary": {
+      "en": "Quick answer"
+    },
+    "image": {
+      "en": "Reference context"
+    },
+    "catalog": {
+      "en": "Name reference"
+    },
+    "comparison": {
+      "en": "Compare before changing"
+    },
+    "procedure": {
+      "en": "Work through the steps"
+    },
+    "troubleshooting": {
+      "en": "Choose the symptom"
+    },
+    "check": {
+      "en": "Check first"
+    },
+    "action": {
+      "en": "What to do"
+    },
+    "success": {
+      "en": "Success check"
+    },
+    "fallback": {
+      "en": "If it remains unclear"
+    },
+    "background": {
+      "en": "Read the supporting evidence"
+    },
+    "continueLabel": {
+      "en": "Continue with"
+    },
+    "startLabel": {
+      "en": "Start here"
+    },
+    "sourceScope": {
+      "en": "Source scope"
+    },
+    "overview": {
+      "en": "Overview"
+    },
+    "related": {
+      "en": "Related tasks"
+    },
+    "guidesCount": {
+      "en": "guides",
+      "de": "Anleitungen"
+    },
+    "recordsCount": {
+      "en": "records",
+      "de": "Einträge"
+    },
+    "sectionsCount": {
+      "en": "sections",
+      "de": "Abschnitte"
+    },
+    "expandBackground": {
+      "en": "Read the full background",
+      "de": "Hintergrund lesen"
+    }
+  },
+  "groups": [
+    {
+      "id": "task-patterns",
+      "title": {
+        "en": "Task layouts"
+      },
+      "summary": {
+        "en": "Four ways to answer a concrete question."
+      },
+      "hubPageId": "guides-hub",
+      "pageIds": [
+        "reference-library",
+        "decision-table",
+        "guided-process",
+        "diagnostic-guide"
+      ],
+      "featured": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        },
+        {
+          "pageId": "guided-process",
+          "label": {
+            "en": "Follow a process"
+          },
+          "description": {
+            "en": "Use action and success checks."
+          }
+        },
+        {
+          "pageId": "diagnostic-guide",
+          "label": {
+            "en": "Find a check"
+          },
+          "description": {
+            "en": "Start with the symptom."
+          }
+        }
+      ]
+    },
+    {
+      "id": "editorial-reference",
+      "title": {
+        "en": "Editorial reference"
+      },
+      "summary": {
+        "en": "Sources, scope and the original article fallback."
+      },
+      "hubPageId": "characters-hub",
+      "pageIds": [
+        "guide-field-notes",
+        "characters-hub",
+        "sources",
+        "spoiler-boundary"
+      ],
+      "featured": [
+        {
+          "pageId": "guide-field-notes",
+          "label": {
+            "en": "Read an article"
+          },
+          "description": {
+            "en": "Inspect the classic renderer."
+          }
+        },
+        {
+          "pageId": "sources",
+          "label": {
+            "en": "Review sources"
+          },
+          "description": {
+            "en": "Keep public citations separate."
+          }
+        }
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "id": "research-to-result",
+      "title": {
+        "en": "From a question to a result"
+      },
+      "description": {
+        "en": "A suggested reading path across the example layouts."
+      },
+      "stops": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        },
+        {
+          "pageId": "guided-process",
+          "label": {
+            "en": "Follow a process"
+          },
+          "description": {
+            "en": "Use action and success checks."
+          }
+        },
+        {
+          "pageId": "diagnostic-guide",
+          "label": {
+            "en": "Resolve a gap"
+          },
+          "description": {
+            "en": "Find the next check."
+          }
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "home": {
+      "template": "landing",
+      "focusSectionIds": [],
+      "groupIds": [
+        "task-patterns",
+        "editorial-reference"
+      ],
+      "journeyIds": [
+        "research-to-result"
+      ],
+      "destinations": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        },
+        {
+          "pageId": "guided-process",
+          "label": {
+            "en": "Follow a process"
+          },
+          "description": {
+            "en": "Use action and success checks."
+          }
+        },
+        {
+          "pageId": "diagnostic-guide",
+          "label": {
+            "en": "Find a check"
+          },
+          "description": {
+            "en": "Start with the symptom."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "Background and scope"
+      },
+      "scopeNote": {
+        "en": "Neutral framework example. Replace with sourced game content."
+      },
+      "displayTitle": {
+        "en": "Choose the right page for the task"
+      },
+      "deck": {
+        "en": "Six reusable layouts, connected by topics and next steps."
+      }
+    },
+    "guides-hub": {
+      "template": "hub",
+      "focusSectionIds": [],
+      "groupIds": [
+        "task-patterns",
+        "editorial-reference"
+      ],
+      "journeyIds": [
+        "research-to-result"
+      ],
+      "destinations": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "Background and scope"
+      },
+      "scopeNote": {
+        "en": "Neutral framework example. Replace with sourced game content."
+      }
+    },
+    "characters-hub": {
+      "template": "hub",
+      "focusSectionIds": [],
+      "groupIds": [
+        "editorial-reference"
+      ],
+      "journeyIds": [],
+      "destinations": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "Background and scope"
+      },
+      "scopeNote": {
+        "en": "Neutral framework example. Replace with sourced game content."
+      }
+    },
+    "reference-library": {
+      "template": "catalog",
+      "focusSectionIds": [
+        "records"
+      ],
+      "groupIds": [
+        "task-patterns"
+      ],
+      "journeyIds": [
+        "research-to-result"
+      ],
+      "destinations": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "Background and scope"
+      },
+      "scopeNote": {
+        "en": "Neutral framework example. Replace with sourced game content."
+      },
+      "catalogSectionId": "records"
+    },
+    "decision-table": {
+      "template": "comparison",
+      "focusSectionIds": [
+        "criteria"
+      ],
+      "groupIds": [
+        "task-patterns"
+      ],
+      "journeyIds": [
+        "research-to-result"
+      ],
+      "destinations": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "Background and scope"
+      },
+      "scopeNote": {
+        "en": "Neutral framework example. Replace with sourced game content."
+      },
+      "comparisonSectionId": "criteria"
+    },
+    "guided-process": {
+      "template": "procedure",
+      "focusSectionIds": [
+        "prepare",
+        "review",
+        "record"
+      ],
+      "groupIds": [
+        "task-patterns"
+      ],
+      "journeyIds": [
+        "research-to-result"
+      ],
+      "destinations": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "Background and scope"
+      },
+      "scopeNote": {
+        "en": "Neutral framework example. Replace with sourced game content."
+      },
+      "procedure": {
+        "title": {
+          "en": "A repeatable review process"
+        },
+        "scope": {
+          "en": "Editorial demonstration using sample records."
+        },
+        "stages": [
+          {
+            "sectionId": "prepare",
+            "action": {
+              "en": "Write one question and choose a source."
+            },
+            "success": {
+              "en": "The question and source are recorded."
+            },
+            "fallback": {
+              "en": "Narrow the question before continuing."
+            }
+          },
+          {
+            "sectionId": "review",
+            "action": {
+              "en": "Compare the claim with the source."
+            },
+            "success": {
+              "en": "The evidence supports the exact statement."
+            },
+            "fallback": {
+              "en": "Mark unsupported parts unknown."
+            }
+          },
+          {
+            "sectionId": "record",
+            "action": {
+              "en": "Save the outcome and limits."
+            },
+            "success": {
+              "en": "Another reader can trace the conclusion."
+            },
+            "fallback": {
+              "en": "Add the missing context before publishing."
+            }
+          }
+        ]
+      }
+    },
+    "diagnostic-guide": {
+      "template": "troubleshooting",
+      "focusSectionIds": [
+        "missing-record",
+        "missing-evidence"
+      ],
+      "groupIds": [
+        "task-patterns"
+      ],
+      "journeyIds": [
+        "research-to-result"
+      ],
+      "destinations": [
+        {
+          "pageId": "reference-library",
+          "label": {
+            "en": "Find a record"
+          },
+          "description": {
+            "en": "Search shared fields."
+          }
+        },
+        {
+          "pageId": "decision-table",
+          "label": {
+            "en": "Compare choices"
+          },
+          "description": {
+            "en": "Review the same criteria."
+          }
+        }
+      ],
+      "supportTitle": {
+        "en": "Background and scope"
+      },
+      "scopeNote": {
+        "en": "Neutral framework example. Replace with sourced game content."
+      },
+      "issues": [
+        {
+          "id": "unknown-record",
+          "symptom": {
+            "en": "I cannot find a record"
+          },
+          "check": {
+            "en": "Check its identifier and publication status."
+          },
+          "action": {
+            "en": "Open the registry and inspect that entry."
+          },
+          "outcome": {
+            "en": "The record is found or its absence is documented."
+          },
+          "sourceNote": {
+            "en": "Synthetic authoring example."
+          },
+          "sectionId": "missing-record"
+        },
+        {
+          "id": "unknown-value",
+          "symptom": {
+            "en": "I cannot verify a value"
+          },
+          "check": {
+            "en": "Look for a source that supports the precise claim."
+          },
+          "action": {
+            "en": "Keep the value unknown until evidence is recorded."
+          },
+          "outcome": {
+            "en": "The uncertainty is visible to the reader."
+          },
+          "sourceNote": {
+            "en": "Synthetic authoring example."
+          },
+          "sectionId": "missing-evidence"
+        }
+      ]
+    }
+  }
+}

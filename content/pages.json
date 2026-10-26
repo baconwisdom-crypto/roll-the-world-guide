@@ -1,0 +1,1787 @@
+[
+  {
+    "page_id": "home",
+    "route": "/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Guide & Wiki"
+    },
+    "description": {
+      "en": "Grow from the grass to the skyline. Learn stars, upgrades, finds and the route to space in overzeer’s Roblox game."
+    },
+    "pageType": "Home",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "Grow from the grass to the skyline. Learn stars, upgrades, finds and the route to space in overzeer’s Roblox game."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Roll over objects smaller than your ball, spend stardust on permanent upgrades, and make stars to restart with faster growth. The official route to space requires your sixth star at size 300."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "start",
+        "title": {
+          "en": "Your first run"
+        },
+        "paragraphs": [
+          {
+            "en": "Start among the grass and small objects. Follow the size ring, move toward denser paths as your ball grows, and check upgrades before your next run."
+          }
+        ]
+      },
+      {
+        "id": "latest",
+        "title": {
+          "en": "Space and Halloween"
+        },
+        "paragraphs": [
+          {
+            "en": "The official description advertises space after star six and Halloween through November 9. Read the dedicated guides for confirmed requirements."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "beginner",
+      "codes"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "primaryAction": {
+      "label": {
+        "en": "Start rolling"
+      },
+      "pageId": "beginner"
+    }
+  },
+  {
+    "page_id": "guides",
+    "route": "/guides/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Guides"
+    },
+    "description": {
+      "en": "Choose your next goal: first steps, star resets, upgrades, rare finds, areas, codes and space."
+    },
+    "pageType": "Hub",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "Choose your next goal: first steps, star resets, upgrades, rare finds, areas, codes and space."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Start with the beginner route, then compare upgrades and learn what a star reset keeps."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "choose",
+        "title": {
+          "en": "Pick your next goal"
+        },
+        "paragraphs": [
+          {
+            "en": "Use the beginner guide for your first run, the star guide before a reset, and the finds guide before selling a collection."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "beginner",
+      "stars"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Guides"
+      },
+      "order": 1
+    }
+  },
+  {
+    "page_id": "beginner",
+    "route": "/guides/beginners-guide/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Beginner’s Guide"
+    },
+    "description": {
+      "en": "A practical first-run route through grass, paths and streets, with controls, index claims and the first star explained."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "A practical first-run route through grass, paths and streets, with controls, index claims and the first star explained."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Use WASD to roll, right-drag to look and hold Shift to boost on PC. Collect smaller objects, check the size ring and use permanent growth upgrades before your first star."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "controls",
+        "title": {
+          "en": "Learn the opening controls"
+        },
+        "paragraphs": [
+          {
+            "en": "The opening PC tutorial shows WASD to roll, right-drag to look, and hold Shift to boost. The size ring sits at the bottom left, with stars and purple stardust beside it. The right column contains shop, index, finds, boards, upgrades and settings."
+          },
+          {
+            "en": "These keys are verified from the PC recording. Use your platform’s on-screen controls on mobile or console. The official listing supports both, but exact controller mappings have not been verified."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0010"
+        ]
+      },
+      {
+        "id": "route",
+        "title": {
+          "en": "Move from small objects to crowded streets"
+        },
+        "paragraphs": [
+          {
+            "en": "Start with the small pieces around the grass. Keep moving through objects that attach to your ball. If a target does not stick, collect smaller nearby objects and come back after the size ring grows."
+          },
+          {
+            "en": "The reviewed run moves through paths and park areas before town streets. This frame shows a ball at 8.47 studs beside planted rows and a road. It is one recorded route, with upgrades affecting the pace. It is not a mandatory area unlock threshold."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0300"
+        ]
+      },
+      {
+        "id": "spend",
+        "title": {
+          "en": "Make the first stardust count"
+        },
+        "paragraphs": [
+          {
+            "en": "Open upgrades using the green arrow. The panel says stars keep upgrades and stardust, so an early growth level helps later runs too. Compare the next cost with the effect before buying."
+          },
+          {
+            "en": "Watch the index button for a claim prompt after collecting new object types. Claiming it adds stardust to reinvest. In the footage, the claim button is separate from simply collecting an object."
+          }
+        ]
+      },
+      {
+        "id": "first-star",
+        "title": {
+          "en": "Know when the run ends"
+        },
+        "paragraphs": [
+          {
+            "en": "The first-star threshold is 50 studs in the reviewed game. The first-star summary shows a ×1.25 growth multiplier and the next star at 100 studs. A star starts a fresh small-ball run. Read the star guide before resetting."
+          },
+          {
+            "en": "If progress slows, check that useful finds are equipped, collect pending index rewards and return to clusters of smaller objects. No guaranteed completion time has been established."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [
+      {
+        "id": "beginner-controls-observed",
+        "statement": {
+          "en": "Starting HUD and PC tutorial with WASD, right-drag and Shift"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=10s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      },
+      {
+        "id": "beginner-route-observed",
+        "statement": {
+          "en": "Ball beside streets and planted rows at 8.47 studs"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=300s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      }
+    ],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [
+      {
+        "id": "video-pz9iyGbWdpU-0010",
+        "src": "/images/video-pz9iyGbWdpU-0010.webp",
+        "alt": {
+          "en": "Starting HUD and PC tutorial with WASD, right-drag and Shift"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:00:10"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=10s",
+        "timecode": "00:00:10",
+        "videoId": "pz9iyGbWdpU"
+      },
+      {
+        "id": "video-pz9iyGbWdpU-0300",
+        "src": "/images/video-pz9iyGbWdpU-0300.webp",
+        "alt": {
+          "en": "Ball beside streets and planted rows at 8.47 studs"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:05:00"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=300s",
+        "timecode": "00:05:00",
+        "videoId": "pz9iyGbWdpU"
+      }
+    ],
+    "relatedPageIds": [
+      "upgrades",
+      "stars"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published"
+  },
+  {
+    "page_id": "stars",
+    "route": "/guides/stars-rebirths/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Stars & Rebirths"
+    },
+    "description": {
+      "en": "What star resets keep, verified size milestones, growth multipliers and the route to the sixth star."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "What star resets keep, verified size milestones, growth multipliers and the route to the sixth star."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Stars reset your ball’s size and improve future growth. The first summary shows ×1.25 growth and a second-star target of 100 studs. Space requires star six at size 300."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "reset",
+        "title": {
+          "en": "What changes when you make a star"
+        },
+        "paragraphs": [
+          {
+            "en": "A star turns the run into a star-life summary, then starts a new run. The upgrades panel confirms that upgrades and stardust are retained. The Finds panel still contains the collection immediately after the first reset."
+          },
+          {
+            "en": "The first summary records 51.4 studs at the end of that run and the next-star target at 100. Finishing above the threshold is possible; 51.4 is not the required first-star size."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0465"
+        ]
+      },
+      {
+        "id": "milestones",
+        "title": {
+          "en": "Verified star size milestones"
+        },
+        "paragraphs": [
+          {
+            "en": "Directly checked milestones are listed below. An unverified row is left open instead of extending a numeric pattern."
+          }
+        ],
+        "table": {
+          "columns": [
+            {
+              "en": "Star"
+            },
+            {
+              "en": "Required size"
+            },
+            {
+              "en": "Evidence"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "en": "1"
+              },
+              {
+                "en": "50 studs"
+              },
+              {
+                "en": "Reviewed first-star gameplay"
+              }
+            ],
+            [
+              {
+                "en": "2"
+              },
+              {
+                "en": "100 studs"
+              },
+              {
+                "en": "First-star summary"
+              }
+            ],
+            [
+              {
+                "en": "3"
+              },
+              {
+                "en": "Not independently confirmed"
+              },
+              {
+                "en": "Read the current panel"
+              }
+            ],
+            [
+              {
+                "en": "4"
+              },
+              {
+                "en": "200 studs"
+              },
+              {
+                "en": "Community cross-check; recheck live"
+              }
+            ],
+            [
+              {
+                "en": "5"
+              },
+              {
+                "en": "250 studs"
+              },
+              {
+                "en": "Reviewed panel after star four"
+              }
+            ],
+            [
+              {
+                "en": "6"
+              },
+              {
+                "en": "300 studs"
+              },
+              {
+                "en": "Official Roblox description"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "next",
+        "title": {
+          "en": "Read the next requirement after a reset"
+        },
+        "paragraphs": [
+          {
+            "en": "Open upgrades and scroll to the star row. After star four, the reviewed panel says star 5 at 250, shows growth ×1.40 to ×1.45, and offers one star spin. These are recorded-build values. Check your live panel."
+          },
+          {
+            "en": "If the button says NOT BIG ENOUGH, keep collecting until the size target in that row is met. A large ball on an earlier star does not satisfy the sixth-star space requirement."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-1565"
+        ]
+      },
+      {
+        "id": "choice",
+        "title": {
+          "en": "Reset now or keep exploring?"
+        },
+        "paragraphs": [
+          {
+            "en": "For progression, making a star when eligible gives the next run the higher growth multiplier. For exploration, you can continue after the prompt appears; the video shows a ball far above its current reset target."
+          },
+          {
+            "en": "Choose based on whether you want later stars or more exploration in this run. No mathematically optimal reset schedule has been verified."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [
+      {
+        "id": "stars-reset-observed",
+        "statement": {
+          "en": "First-star summary with growth multiplier and next-star target"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=465s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      },
+      {
+        "id": "stars-next-observed",
+        "statement": {
+          "en": "Star-five requirement at 250 in upgrades after star four"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=1565s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      }
+    ],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [
+      {
+        "id": "video-pz9iyGbWdpU-0465",
+        "src": "/images/video-pz9iyGbWdpU-0465.webp",
+        "alt": {
+          "en": "First-star summary with growth multiplier and next-star target"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:07:45"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=465s",
+        "timecode": "00:07:45",
+        "videoId": "pz9iyGbWdpU"
+      },
+      {
+        "id": "video-pz9iyGbWdpU-1565",
+        "src": "/images/video-pz9iyGbWdpU-1565.webp",
+        "alt": {
+          "en": "Star-five requirement at 250 in upgrades after star four"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:26:05"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=1565s",
+        "timecode": "00:26:05",
+        "videoId": "pz9iyGbWdpU"
+      }
+    ],
+    "relatedPageIds": [
+      "space",
+      "upgrades"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Stars"
+      },
+      "order": 2
+    }
+  },
+  {
+    "page_id": "upgrades",
+    "route": "/guides/upgrades/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Upgrades & Stardust"
+    },
+    "description": {
+      "en": "Compare growth, speed, stamina, magnet, luck and start size using the real upgrade panel."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "Compare growth, speed, stamina, magnet, luck and start size using the real upgrade panel."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Spend stardust in upgrades. Growth improves collection progress, speed changes rolling speed, stamina improves boost and magnet extends reach. Stars keep upgrades and stardust."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "panel",
+        "title": {
+          "en": "How to buy an upgrade"
+        },
+        "paragraphs": [
+          {
+            "en": "Open the green upgrades arrow. The purple number is your stardust balance. Each row shows current level, current effect, next effect and price. Compare those before buying."
+          },
+          {
+            "en": "In the early recording, growth level 1 shows +5% to +10% growth while speed, stamina and magnet remain at level 0. The success message confirms that the purchased level makes growth 5% faster."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0145"
+        ]
+      },
+      {
+        "id": "compare",
+        "title": {
+          "en": "Which upgrade solves your current problem?"
+        },
+        "paragraphs": [
+          {
+            "en": "This editorial decision aid follows visible effects. It is not a measured ranking of stardust efficiency."
+          }
+        ],
+        "table": {
+          "columns": [
+            {
+              "en": "Upgrade"
+            },
+            {
+              "en": "Visible purpose"
+            },
+            {
+              "en": "When it helps"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "en": "Growth"
+              },
+              {
+                "en": "Increase growth bonus"
+              },
+              {
+                "en": "You want larger objects sooner"
+              }
+            ],
+            [
+              {
+                "en": "Speed"
+              },
+              {
+                "en": "Increase rolling speed"
+              },
+              {
+                "en": "Travel delays your run"
+              }
+            ],
+            [
+              {
+                "en": "Stamina"
+              },
+              {
+                "en": "Improve boost"
+              },
+              {
+                "en": "You want more sustained boosting"
+              }
+            ],
+            [
+              {
+                "en": "Magnet"
+              },
+              {
+                "en": "Increase collection reach"
+              },
+              {
+                "en": "You miss nearby objects"
+              }
+            ],
+            [
+              {
+                "en": "Luck"
+              },
+              {
+                "en": "Increase luck stat"
+              },
+              {
+                "en": "You are focusing on rare finds"
+              }
+            ],
+            [
+              {
+                "en": "Start size"
+              },
+              {
+                "en": "Begin later runs larger"
+              },
+              {
+                "en": "You repeatedly restart"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "order",
+        "title": {
+          "en": "A sensible early spending order"
+        },
+        "paragraphs": [
+          {
+            "en": "Check growth first because it directly supports reaching larger targets. Then choose movement upgrades or luck according to the delay you are experiencing. Targeted purchases are easier to assess than dividing every balance across all rows."
+          },
+          {
+            "en": "The later panel shows independent levels for growth, speed, stamina, magnet and luck. Costs change by level, so screenshots should not become a fixed shopping list."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0385"
+        ]
+      },
+      {
+        "id": "income",
+        "title": {
+          "en": "Claim before spending"
+        },
+        "paragraphs": [
+          {
+            "en": "The index claim prompt pays stardust after new collections. Finds also have a sell action with a displayed stardust value. Review useful bonuses and lock valuable items before selling."
+          },
+          {
+            "en": "If a purchase is unavailable, compare your balance with its current price. Stars keep the balance and upgrades, so you do not need to spend everything solely because a reset is available."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [
+      {
+        "id": "upgrades-panel-observed",
+        "statement": {
+          "en": "Upgrade panel with growth level one and next effects"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=145s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      },
+      {
+        "id": "upgrades-order-observed",
+        "statement": {
+          "en": "Independently levelled growth, movement and luck upgrades"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=385s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      }
+    ],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [
+      {
+        "id": "video-pz9iyGbWdpU-0145",
+        "src": "/images/video-pz9iyGbWdpU-0145.webp",
+        "alt": {
+          "en": "Upgrade panel with growth level one and next effects"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:02:25"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=145s",
+        "timecode": "00:02:25",
+        "videoId": "pz9iyGbWdpU"
+      },
+      {
+        "id": "video-pz9iyGbWdpU-0385",
+        "src": "/images/video-pz9iyGbWdpU-0385.webp",
+        "alt": {
+          "en": "Independently levelled growth, movement and luck upgrades"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:06:25"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=385s",
+        "timecode": "00:06:25",
+        "videoId": "pz9iyGbWdpU"
+      }
+    ],
+    "relatedPageIds": [
+      "finds",
+      "stars"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Upgrades"
+      },
+      "order": 3
+    }
+  },
+  {
+    "page_id": "finds",
+    "route": "/guides/finds-rarities/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Finds & Rarities"
+    },
+    "description": {
+      "en": "Equip bonuses, protect useful rolls with locks, compare effects and sell unwanted finds carefully."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "Equip bonuses, protect useful rolls with locks, compare effects and sell unwanted finds carefully."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Open finds, compare each effect and equip useful bonuses. Use LOCK before bulk selling. The menu says locked and equipped finds are kept during bulk sales."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "equip",
+        "title": {
+          "en": "Equip the effect you need"
+        },
+        "paragraphs": [
+          {
+            "en": "The menu shows equipped slots and combined growth and stardust multipliers. This frame reads equipped 3/4. Each row has a name, bonus, odds label and LOCK, SELL, EQUIP or UNEQUIP controls."
+          },
+          {
+            "en": "Diamond Brick Shops shows +15.1% growth with an EQUIP button; Golden Hedge shows +5.5% growth and is already equipped. These are recorded examples. Compare actual effects instead of assuming every find in a rarity shares one bonus."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0480"
+        ]
+      },
+      {
+        "id": "shared",
+        "title": {
+          "en": "Why a rare object can disappear"
+        },
+        "paragraphs": [
+          {
+            "en": "The second reviewed video shows a tutorial explaining that rares are shared: the first player to roll one up keeps it. A rare object in the world is contested until collected."
+          },
+          {
+            "en": "If another player arrives first, find other eligible objects and keep growing. A shared spawn differs from an item already saved in Finds. A world announcement does not guarantee a personal reward."
+          }
+        ],
+        "imageIds": [
+          "video-aFcQiF6YHjQ-0015"
+        ]
+      },
+      {
+        "id": "protect",
+        "title": {
+          "en": "Lock before using bulk sell"
+        },
+        "paragraphs": [
+          {
+            "en": "ALL GOLDEN and ALL DIAMOND are bulk actions. The menu explicitly says locked and equipped finds are kept. Lock any item you intend to save, including when temporarily changing equipped items."
+          },
+          {
+            "en": "For a single unwanted item, read its SELL value. Before bulk selling, inspect protection states. Selling trades the find for displayed stardust; no undo mechanism has been verified."
+          }
+        ]
+      },
+      {
+        "id": "rarities",
+        "title": {
+          "en": "Known rarity names and unknown odds"
+        },
+        "paragraphs": [
+          {
+            "en": "The developer names golden, diamond, rainbow and rarer variants, plus haunted finds for Halloween. The footage confirms item-specific bonuses and odds labels."
+          },
+          {
+            "en": "A 1 in 300 label belongs to the displayed find and its recorded context. The full loot table, luck stacking formula and universal odds per rarity are unverified. No complete drop-rate table is published here."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [
+      {
+        "id": "finds-equip-observed",
+        "statement": {
+          "en": "Finds menu with item effects, slots and lock sell equip actions"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=480s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      },
+      {
+        "id": "finds-shared-observed",
+        "statement": {
+          "en": "Tutorial explaining shared rare objects"
+        },
+        "sourceId": "video-aFcQiF6YHjQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=aFcQiF6YHjQ&t=15s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      }
+    ],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [
+      {
+        "id": "video-pz9iyGbWdpU-0480",
+        "src": "/images/video-pz9iyGbWdpU-0480.webp",
+        "alt": {
+          "en": "Finds menu with item effects, slots and lock sell equip actions"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:08:00"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=480s",
+        "timecode": "00:08:00",
+        "videoId": "pz9iyGbWdpU"
+      },
+      {
+        "id": "video-aFcQiF6YHjQ-0015",
+        "src": "/images/video-aFcQiF6YHjQ-0015.webp",
+        "alt": {
+          "en": "Tutorial explaining shared rare objects"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:00:15"
+        },
+        "ratio": "video",
+        "sourceId": "video-aFcQiF6YHjQ",
+        "sourceUrl": "https://www.youtube.com/watch?v=aFcQiF6YHjQ&t=15s",
+        "timecode": "00:00:15",
+        "videoId": "aFcQiF6YHjQ"
+      }
+    ],
+    "relatedPageIds": [
+      "upgrades",
+      "events"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Finds"
+      },
+      "order": 4
+    }
+  },
+  {
+    "page_id": "areas",
+    "route": "/guides/sizes-areas/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Sizes & Areas"
+    },
+    "description": {
+      "en": "Recognize park, city, Mushroom Hollow and Starfall Range landmarks without confusing observed size with an unlock requirement."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "Recognize park, city, Mushroom Hollow and Starfall Range landmarks without confusing observed size with an unlock requirement."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Use the size ring and nearby objects to choose your route. Named areas are visible in gameplay, but an observed entry size does not establish a minimum requirement."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "town",
+        "title": {
+          "en": "From grass to town"
+        },
+        "paragraphs": [
+          {
+            "en": "Move from tiny grass objects through paths, park furniture and streets as your size grows. Town blocks put many object types close together when they are small enough to collect."
+          },
+          {
+            "en": "If a target stays in place, collect smaller objects and return. A complete verified table of per-object size requirements is unavailable."
+          }
+        ]
+      },
+      {
+        "id": "hollow",
+        "title": {
+          "en": "Recognize Mushroom Hollow"
+        },
+        "paragraphs": [
+          {
+            "en": "The recording shows the Mushroom Hollow banner, mountains and large plants at about 218 studs. This is an orientation example in a developed run, not a confirmed 218-stud gate."
+          },
+          {
+            "en": "Keep eligible trees and smaller scenery on your route instead of repeatedly pushing into an oversized target. Check the size ring alongside the ball’s appearance."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0850"
+        ]
+      },
+      {
+        "id": "range",
+        "title": {
+          "en": "Recognize The Starfall Range"
+        },
+        "paragraphs": [
+          {
+            "en": "The Starfall Range banner appears over a broad map view. Roads, water and city blocks remain useful landmarks as your ball travels longer distances."
+          },
+          {
+            "en": "The Make a Star prompt remains available here. A large map view and entering space have separate conditions: the official space route requires star six at size 300."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-1300"
+        ]
+      },
+      {
+        "id": "graphics",
+        "title": {
+          "en": "When scenery becomes hard to read"
+        },
+        "paragraphs": [
+          {
+            "en": "Inspect settings if the scene becomes difficult to navigate. Community guidance mentions performance mode, but the exact toggle and ideal graphics value were not independently checked."
+          },
+          {
+            "en": "Adjust for your device and confirm that ground, nearby objects and UI remain visible. No universal best graphics level is established."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [
+      {
+        "id": "areas-hollow-observed",
+        "statement": {
+          "en": "Mushroom Hollow banner and large plants"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=850s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      },
+      {
+        "id": "areas-range-observed",
+        "statement": {
+          "en": "The Starfall Range banner over a wide map view"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=1300s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      }
+    ],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [
+      {
+        "id": "video-pz9iyGbWdpU-0850",
+        "src": "/images/video-pz9iyGbWdpU-0850.webp",
+        "alt": {
+          "en": "Mushroom Hollow banner and large plants"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:14:10"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=850s",
+        "timecode": "00:14:10",
+        "videoId": "pz9iyGbWdpU"
+      },
+      {
+        "id": "video-pz9iyGbWdpU-1300",
+        "src": "/images/video-pz9iyGbWdpU-1300.webp",
+        "alt": {
+          "en": "The Starfall Range banner over a wide map view"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:21:40"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=1300s",
+        "timecode": "00:21:40",
+        "videoId": "pz9iyGbWdpU"
+      }
+    ],
+    "relatedPageIds": [
+      "stars",
+      "space"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published"
+  },
+  {
+    "page_id": "space",
+    "route": "/guides/space-unlock/",
+    "section": "Guides",
+    "title": {
+      "en": "How to Unlock Space in Roll the World"
+    },
+    "description": {
+      "en": "The confirmed free space requirement, how stars differ from size, and which later progression details remain unverified."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "The confirmed free space requirement, how stars differ from size, and which later progression details remain unverified."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "Make your sixth star at size 300 to leave Earth. This requirement appears in the official Roblox description and the reviewed upgrades banner."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "requirement",
+        "title": {
+          "en": "The free route to space"
+        },
+        "paragraphs": [
+          {
+            "en": "Build your star count through repeated runs. Before a reset, open upgrades and read the next requirement. Collect until its button is available, then make the star."
+          },
+          {
+            "en": "A size-300 ball on an earlier star is insufficient evidence of eligibility. Track both the completed star count and size ring."
+          }
+        ]
+      },
+      {
+        "id": "check",
+        "title": {
+          "en": "If you are still on Earth"
+        },
+        "paragraphs": [
+          {
+            "en": "Check your completed stars, read the next-star row and inspect the space button in the right-hand HUD. Follow the updated in-game requirement if it differs from older footage."
+          },
+          {
+            "en": "The reviewed full run ends at star four. It confirms the requirement banner but does not show the Earth-to-space transition. Exact transition clicks and a post-unlock screenshot remain unverified."
+          }
+        ]
+      },
+      {
+        "id": "beyond",
+        "title": {
+          "en": "What the developer confirms"
+        },
+        "paragraphs": [
+          {
+            "en": "The official description says space lets you roll up planets, the sun, stars and the whole universe. It does not provide a full target order, size table or completion rewards."
+          },
+          {
+            "en": "Planet order, the full space map, Big Bang reset formulas and rewards are not independently verified. Earth values are not extended into a speculative space table."
+          }
+        ]
+      },
+      {
+        "id": "paid",
+        "title": {
+          "en": "The paid shortcut is optional"
+        },
+        "paragraphs": [
+          {
+            "en": "The upgrades panel advertises a space pack as an alternative. The free sixth-star route is explicitly available. No purchase is needed to follow this guide."
+          },
+          {
+            "en": "Read current pack prices and contents in the game before spending. Old recorded prices can change; this guide does not recommend buying a skip."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "stars",
+      "upgrades"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Space"
+      },
+      "order": 5
+    }
+  },
+  {
+    "page_id": "codes",
+    "route": "/codes/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Codes: October 2026"
+    },
+    "description": {
+      "en": "The officially listed 1000LIKES reward, shop redemption guidance and checks for failed codes."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "The officially listed 1000LIKES reward, shop redemption guidance and checks for failed codes."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "The official description lists 1000LIKES for 5 star spins, 3 growth potions and 2× luck for 30 minutes. Checked October 26, 2026; not redeemed on our own account."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "list",
+        "title": {
+          "en": "Officially listed code"
+        },
+        "paragraphs": [
+          {
+            "en": "This table records the developer’s advertised reward. It does not promise a repeat redemption on an account that has already claimed it."
+          }
+        ],
+        "table": {
+          "columns": [
+            {
+              "en": "Code"
+            },
+            {
+              "en": "Advertised reward"
+            },
+            {
+              "en": "Status"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "en": "1000LIKES"
+              },
+              {
+                "en": "5 star spins; 3 growth potions; 2× luck for 30 minutes"
+              },
+              {
+                "en": "Officially listed October 26; not personally redeemed"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "id": "redeem",
+        "title": {
+          "en": "How to redeem"
+        },
+        "paragraphs": [
+          {
+            "en": "Open shop from the right HUD. English code guides describe a codes tab in the shop’s lower-left. Enter 1000LIKES and use the redemption action."
+          },
+          {
+            "en": "The shop button is visible in gameplay, but the selected videos never show the code field. Tab location comes from secondary guidance and should be matched to the current UI. No invented redemption-screen image is used."
+          }
+        ]
+      },
+      {
+        "id": "failure",
+        "title": {
+          "en": "If a code is rejected"
+        },
+        "paragraphs": [
+          {
+            "en": "Check spelling, remove spaces and read the exact in-game response. The code may have expired or already been used. Exact error messages and account reuse rules have not been independently checked."
+          },
+          {
+            "en": "The official listing promises a new code at 2,000 likes. This does not establish the code text or prove release. No guessed milestone code is included."
+          }
+        ]
+      },
+      {
+        "id": "other",
+        "title": {
+          "en": "Other free progress"
+        },
+        "paragraphs": [
+          {
+            "en": "The official description offers +10% growth and the overzeer eye skin for joining the overzeer group. Follow the creator link from the official experience to verify the group."
+          },
+          {
+            "en": "Older 250LIKES and 500LIKES strings appear in community history. Current status and exact rewards were not verified, so they are excluded from this list."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "beginner",
+      "stars"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Codes"
+      },
+      "order": 6
+    }
+  },
+  {
+    "page_id": "events",
+    "route": "/guides/events-halloween/",
+    "section": "Guides",
+    "title": {
+      "en": "Roll the World Events & Halloween"
+    },
+    "description": {
+      "en": "Confirmed seasonal systems and Halloween features, with unknown schedules and rewards kept separate."
+    },
+    "pageType": "GuideArticle",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "Confirmed seasonal systems and Halloween features, with unknown schedules and rewards kept separate."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "The developer confirms day and night, seasons, meteor showers and eruptions. Halloween is advertised through November 9 with zombie nights, pumpkins and haunted finds."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "seasons",
+        "title": {
+          "en": "Day, night and seasons"
+        },
+        "paragraphs": [
+          {
+            "en": "The reviewed run shows the town under different seasonal and lighting conditions. This frame shows a nighttime winter scene with clock and season information at the top."
+          },
+          {
+            "en": "Snow does not necessarily indicate a separate map. Continue judging collection by your size and nearby objects."
+          }
+        ],
+        "imageIds": [
+          "video-pz9iyGbWdpU-0600"
+        ]
+      },
+      {
+        "id": "halloween",
+        "title": {
+          "en": "Halloween through November 9"
+        },
+        "paragraphs": [
+          {
+            "en": "The current developer description lists zombie nights, pumpkins and haunted finds, with November 9 as the advertised end date. An exact end hour and time zone are not supplied."
+          },
+          {
+            "en": "The selected frames do not establish zombie damage, pumpkin rewards, haunted odds or post-event retention. Read live event messages and lock items you want to keep."
+          }
+        ]
+      },
+      {
+        "id": "natural",
+        "title": {
+          "en": "Meteor showers and eruptions"
+        },
+        "paragraphs": [
+          {
+            "en": "Both types are named by the developer. Watch nearby scenery and announcements while following your collection route. Exact event schedules and rewards are unverified."
+          },
+          {
+            "en": "Do not treat another player’s announcement as a guaranteed personal drop. Shared rare objects belong to the first player who collects them."
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "title": {
+          "en": "No reward table without evidence"
+        },
+        "paragraphs": [
+          {
+            "en": "Community pages describe paid events and multipliers. The reviewed material does not verify every current cost and effect, so no paid-event price list is published."
+          },
+          {
+            "en": "For steady progress, collect eligible objects, claim index rewards and use permanent upgrades while waiting for a visible event."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game"
+    ],
+    "evidence": [
+      {
+        "id": "events-seasons-observed",
+        "statement": {
+          "en": "Nighttime winter town with clock and seasonal HUD"
+        },
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=600s",
+        "evidenceType": {
+          "en": "Screen-visible gameplay"
+        },
+        "verificationStatus": {
+          "en": "Frame manually reviewed"
+        },
+        "spoilerLevel": {
+          "en": "Gameplay"
+        }
+      }
+    ],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [
+      {
+        "id": "video-pz9iyGbWdpU-0600",
+        "src": "/images/video-pz9iyGbWdpU-0600.webp",
+        "alt": {
+          "en": "Nighttime winter town with clock and seasonal HUD"
+        },
+        "caption": {
+          "en": "Reviewed gameplay at 00:10:00"
+        },
+        "ratio": "video",
+        "sourceId": "video-pz9iyGbWdpU",
+        "sourceUrl": "https://www.youtube.com/watch?v=pz9iyGbWdpU&t=600s",
+        "timecode": "00:10:00",
+        "videoId": "pz9iyGbWdpU"
+      }
+    ],
+    "relatedPageIds": [
+      "finds",
+      "upgrades"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published"
+  },
+  {
+    "page_id": "sources",
+    "route": "/sources/",
+    "section": "Guides",
+    "title": {
+      "en": "Sources & Game Identity"
+    },
+    "description": {
+      "en": "Official identity links, the scope of reviewed gameplay and remaining verification gaps."
+    },
+    "pageType": "Source",
+    "pageStatus": {
+      "en": "Updated October 26, 2026"
+    },
+    "intro": {
+      "en": "Official identity links, the scope of reviewed gameplay and remaining verification gaps."
+    },
+    "quickAnswer": {
+      "title": {
+        "en": "Quick answer"
+      },
+      "body": {
+        "en": "This fan guide covers Roll the World by overzeer on Roblox: Place 97342490021056 and Universe 10769594564."
+      },
+      "status": {
+        "en": "Official description and reviewed gameplay"
+      }
+    },
+    "sections": [
+      {
+        "id": "identity",
+        "title": {
+          "en": "The game covered here"
+        },
+        "paragraphs": [
+          {
+            "en": "The official API identifies developer group overzeer, ID 5357472. The canonical experience uses Place 97342490021056 and Universe 10769594564."
+          },
+          {
+            "en": "Search results for the separate Steam title are excluded."
+          }
+        ]
+      },
+      {
+        "id": "method",
+        "title": {
+          "en": "How the guides were checked"
+        },
+        "paragraphs": [
+          {
+            "en": "The developer description was compared with English guide pages and extracted gameplay frames. Screenshots illustrate observed UI; they do not represent site-owned play sessions."
+          },
+          {
+            "en": "Recordings were published October 24 and 25, 2026. Raw frame times, URLs and passage bindings remain in the project evidence. Current servers can differ after updates."
+          }
+        ]
+      },
+      {
+        "id": "unknown",
+        "title": {
+          "en": "Open verification points"
+        },
+        "paragraphs": [
+          {
+            "en": "The actual space transition, full planet order, third-star threshold, full find probability table, live code redemption and post-Halloween retention remain unverified."
+          },
+          {
+            "en": "Developer claims, visible gameplay and editorial advice are distinguished. Advertised rewards are recorded without claiming personal redemption."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "boundary": {
+      "title": {
+        "en": "Check your current server"
+      },
+      "items": [
+        {
+          "en": "Menus and progression can change after updates. Match the current label before spending stardust or making a star."
+        }
+      ]
+    },
+    "sourceIds": [
+      "official-game",
+      "official-group"
+    ],
+    "evidence": [],
+    "spoilerLevel": {
+      "en": "Gameplay progression"
+    },
+    "images": [],
+    "relatedPageIds": [
+      "guides"
+    ],
+    "localeAvailability": [
+      "en"
+    ],
+    "publicationStatus": "published",
+    "navigation": {
+      "label": {
+        "en": "Sources"
+      },
+      "order": 7
+    }
+  }
+]

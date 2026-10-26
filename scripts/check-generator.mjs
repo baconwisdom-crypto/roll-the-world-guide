@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import { mkdtempSync,mkdirSync,copyFileSync,writeFileSync,readFileSync,existsSync } from 'node:fs';
+import { join,dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
+const root=fileURLToPath(new URL('../',import.meta.url));mkdirSync(join(root,'validation'),{recursive:true});
+const source=mkdtempSync(join(root,'validation','generator-source-')),target=source+'-output';
+const put=(file,text='DO_NOT_COPY_TEST')=>{const p=join(source,file);mkdirSync(dirname(p),{recursive:true});writeFileSync(p,text);};
+put('scripts/create-site.mjs');copyFileSync(join(root,'scripts/create-site.mjs'),join(source,'scripts/create-site.mjs'));
+for(const f of ['out/index.html','research/evidence.json','.wrangler/state.json','.vercel/project.json','secrets/google_token.json','public/deployment.json','app/[locale]/[[...path]]/page.tsx','nested/.env.local','nested/.dev.vars','nested/private.pem','wrangler.toml','google_token.json'])put(f);
+put('app/_routes/localized-page.tsx','retained route source');put('public/neutral.svg','retained asset');
+let result=spawnSync(process.execPath,[join(source,'scripts/create-site.mjs'),target],{encoding:'utf8'});assert.equal(result.status,0,result.stderr);
+for(const f of ['out','research','.wrangler','.vercel','secrets','public/deployment.json','app/[locale]/[[...path]]/page.tsx','nested/.env.local','nested/.dev.vars','nested/private.pem','wrangler.toml','google_token.json'])assert.equal(existsSync(join(target,f)),false,`Unexpected copied artifact: ${f}`);
+assert.equal(readFileSync(join(target,'app/_routes/localized-page.tsx'),'utf8'),'retained route source');assert.equal(readFileSync(join(target,'public/neutral.svg'),'utf8'),'retained asset');
+result=spawnSync(process.execPath,[join(source,'scripts/create-site.mjs'),target],{encoding:'utf8'});assert.notEqual(result.status,0,'Existing target must be preserved');
+assert.equal(readFileSync(join(target,'public/neutral.svg'),'utf8'),'retained asset');
+console.log(`Generator regression passed: private artifacts excluded, neutral source retained, existing target protected. Evidence: ${source}`);
