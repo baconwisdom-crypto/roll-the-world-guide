@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "../config/homepage-theme.css";
 
 @theme {
   --color-night: #0b0d0f;

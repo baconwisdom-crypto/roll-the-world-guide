@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
+import homepage from "@/config/homepage.json";
 import { BRAND_ICON_METADATA } from "@/lib/brand-icons";
 import {
   availableLocalesForPage,
@@ -16,7 +17,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/site";
 import type { PageRecord } from "@/lib/types";
 import type { SearchVisibility } from "@/lib/types";
 
-export const SITE_TITLE = `${SITE_NAME} | Source-tracked game guide framework`;
+export const SITE_TITLE = homepage.metadata.title;
 
 export function pageCanonical(page: PageRecord, locale: Locale): string {
   return `${SITE_URL}${localizedHref(locale, page.route)}`;
@@ -40,10 +41,11 @@ export function buildPageMetadata(page: PageRecord, locale: Locale): Metadata {
   }
 
   const image = page.images[0] ?? siteConfig.heroImage;
-  const pageTitle = text(page.title, locale);
+  const pageTitle = page.pageType === "Home" ? homepage.metadata.title : text(page.title, locale);
   const metadata: Metadata = {
     title: page.pageType === "Home" ? { absolute: pageTitle } : pageTitle,
     description: text(page.description, locale),
+    ...(page.pageType === "Home" ? { keywords: homepage.metadata.keywords } : {}),
     alternates: { canonical, languages },
     robots: robotsForSearchVisibility(siteConfig.searchVisibility),
     twitter: {

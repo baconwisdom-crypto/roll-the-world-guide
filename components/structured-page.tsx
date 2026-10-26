@@ -8,6 +8,7 @@ import { SourceList } from "./source-list";
 import { SupportingGuidance } from "./supporting-guidance";
 import { HeroMedia } from "./hero-media";
 import { AdSlot } from "./ad-slot";
+import { RollWorldHomepage } from "./roll-world-homepage";
 import { siteConfig } from "@/config/site";
 import { structure, destinationHref } from "@/lib/architecture";
 import { pageById, pageIsAvailable, text } from "@/lib/content";
@@ -103,6 +104,7 @@ function EndMatter(props: Props) {
 
 function LandingTemplate(props: Props) {
   const { page, layout, locale } = props;
+  if (page.page_id === "home" && locale === "en") return <><RollWorldHomepage /><EndMatter {...props} /></>;
   const image = siteConfig.heroImage;
   const video = siteConfig.heroVideo;
   return <><div className="arch-landing-lead"><div><Heading {...props} /><Answer page={page} locale={locale} /></div>{image && <div className="arch-brand-image"><ContentImage bare preload image={{ src: image.src, alt: text(image.alt, locale), ratio: image.ratio, fit: image.fit }} /></div>}{video && <div className="arch-brand-image"><HeroMedia video={video} /></div>}</div>

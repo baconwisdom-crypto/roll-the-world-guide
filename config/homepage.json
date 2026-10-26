@@ -1,0 +1,67 @@
+{
+  "home": {
+    "meta": {
+      "title": "Roll the World Wiki: Stars, Upgrades",
+      "description": "Roll the World wiki for your first stars, smart upgrades and rare finds. Learn the beginner route, size milestones and how to unlock space in Roblox."
+    },
+    "hero": {
+      "eyebrow": "Roblox incremental simulator",
+      "title": "Roll the World",
+      "description": "Roll up objects smaller than your ball and grow from grass to city streets. Spend stardust on upgrades, equip rare finds and make stars to restart stronger. Reach your sixth star at size 300 to unlock space.",
+      "stats": ["6 stars to space", "300 size for space", "7 players per server", "PC, mobile & console"],
+      "primaryCta": {"label": "Beginner Guide", "href": "/guides/beginners-guide/"},
+      "secondaryCta": {"label": "Play on Roblox", "href": "https://www.roblox.com/games/97342490021056/roll-the-world"},
+      "tertiaryCta": {"label": "Watch community gameplay", "href": "https://www.youtube.com/watch?v=QIJfOm5I8U8"},
+      "videoLabel": "Community gameplay by OTTER ON ROBLOX"
+    },
+    "start": {
+      "eyebrow": "Your first two hours",
+      "title": "Build a stronger first run",
+      "cards": [
+        {"number": "01", "title": "Beginner Guide", "description": "Learn the controls, collect objects you can roll up and work toward your first star.", "href": "/guides/beginners-guide/"},
+        {"number": "02", "title": "Spend your stardust", "description": "Compare growth, speed, stamina and magnet before buying the next upgrade.", "href": "/guides/upgrades/"},
+        {"number": "03", "title": "Equip useful finds", "description": "Compare find bonuses, lock the rolls you want to keep and sell unwanted finds carefully.", "href": "/guides/finds-rarities/"},
+        {"number": "04", "title": "Plan your first star", "description": "Check reset requirements, see what carries over and prepare your next run.", "href": "/guides/stars-rebirths/"}
+      ]
+    },
+    "aboutGame": {
+      "title": "From a tiny ball to the universe",
+      "paragraphs": [
+        "Roll the World is an incremental Roblox game by overzeer. Start as a tiny ball, collect smaller objects and grow from grass and bugs to cars and city streets. Your size decides what you can roll up next.",
+        "Spend stardust on upgrades and equip finds that improve your run. Making stars restarts your size with stronger progression, and the sixth star at size 300 opens space. Day and night, seasonal events and rarer finds give you more to explore."
+      ],
+      "stats": [
+        {"label": "First star target", "value": "50 studs"},
+        {"label": "Space unlock", "value": "6th star"},
+        {"label": "Space size target", "value": "300"},
+        {"label": "Roblox group growth bonus", "value": "+10%"}
+      ],
+      "cta": {"label": "Plan your route to space", "href": "/guides/space-unlock/"}
+    },
+    "finalCta": {
+      "title": "Make your next roll count",
+      "description": "Choose an upgrade, protect a useful find and get ready for your next star. Keep the guide close while you play.",
+      "primary": {"label": "Play on Roblox", "href": "https://www.roblox.com/games/97342490021056/roll-the-world"},
+      "secondary": {"label": "Browse guides", "href": "/guides/"}
+    }
+  },
+  "footer": {
+    "aboutTitle": "About Roll the World Wiki",
+    "about": "An independent fan guide to Roll the World on Roblox. We explain progression with developer information and reviewed community gameplay. This site is not affiliated with Roblox or overzeer.",
+    "description": "Stars, stardust upgrades, finds and a practical route from your first roll to space.",
+    "playGame": {"label": "Play on Roblox", "href": "https://www.roblox.com/games/97342490021056/roll-the-world"},
+    "officialDiscord": null,
+    "officialYoutube": null,
+    "communityTool": {"label": "overzeer on Roblox", "href": "https://www.roblox.com/communities/5357472/overzeer"},
+    "privacyPolicy": {"label": "Privacy policy", "href": "/sources/#privacy-policy"},
+    "termsOfService": {"label": "Terms of service", "href": "/sources/#terms-of-service"}
+  },
+  "metadata": {
+    "title": "Roll the World Wiki: Stars, Upgrades",
+    "description": "Roll the World wiki for your first stars, smart upgrades and rare finds. Learn the beginner route, size milestones and how to unlock space in Roblox.",
+    "keywords": "Roll the World wiki, stars, upgrades, stardust, finds, beginner guide, space"
+  },
+  "sidebarCodes": [
+    {"code": "1000LIKES", "rewards": "5 star spins, 3 growth potions and 2x luck for 30 minutes", "status": "Listed in the developer description; redemption not independently tested.", "href": "/codes/"}
+  ]
+}

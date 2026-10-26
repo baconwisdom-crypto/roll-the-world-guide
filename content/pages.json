@@ -4,17 +4,17 @@
     "route": "/",
     "section": "Guides",
     "title": {
-      "en": "Roll the World Guide & Wiki"
+      "en": "Roll the World Wiki: Stars, Upgrades"
     },
     "description": {
-      "en": "Grow from the grass to the skyline. Learn stars, upgrades, finds and the route to space in overzeer’s Roblox game."
+      "en": "Roll the World wiki for your first stars, smart upgrades and rare finds. Learn the beginner route, size milestones and how to unlock space in Roblox."
     },
     "pageType": "Home",
     "pageStatus": {
-      "en": "Updated October 26, 2026"
+      "en": "Updated October 27, 2026"
     },
     "intro": {
-      "en": "Grow from the grass to the skyline. Learn stars, upgrades, finds and the route to space in overzeer’s Roblox game."
+      "en": "Roll up objects smaller than your ball and grow from grass to city streets. Spend stardust on upgrades, equip rare finds and make stars to restart stronger. Reach your sixth star at size 300 to unlock space."
     },
     "quickAnswer": {
       "title": {
@@ -27,30 +27,7 @@
         "en": "Official description and reviewed gameplay"
       }
     },
-    "sections": [
-      {
-        "id": "start",
-        "title": {
-          "en": "Your first run"
-        },
-        "paragraphs": [
-          {
-            "en": "Start among the grass and small objects. Follow the size ring, move toward denser paths as your ball grows, and check upgrades before your next run."
-          }
-        ]
-      },
-      {
-        "id": "latest",
-        "title": {
-          "en": "Space and Halloween"
-        },
-        "paragraphs": [
-          {
-            "en": "The official description advertises space after star six and Halloween through November 9. Read the dedicated guides for confirmed requirements."
-          }
-        ]
-      }
-    ],
+    "sections": [],
     "faq": [],
     "boundary": {
       "title": {
@@ -1746,6 +1723,34 @@
           },
           {
             "en": "Developer claims, visible gameplay and editorial advice are distinguished. Advertised rewards are recorded without claiming personal redemption."
+          }
+        ]
+      },
+      {
+        "id": "privacy-policy",
+        "title": {
+          "en": "Privacy policy"
+        },
+        "paragraphs": [
+          {
+            "en": "This independent guide uses Google Analytics 4 to understand page visits and usage. Google may use cookies and collect technical information such as device type, approximate location and page interactions. Browser privacy controls and content blockers can limit analytics collection."
+          },
+          {
+            "en": "We do not offer accounts or ask players to submit personal information on this site. External Roblox and YouTube links open services with their own privacy policies. Advertising is disabled on this release."
+          }
+        ]
+      },
+      {
+        "id": "terms-of-service",
+        "title": {
+          "en": "Terms of service"
+        },
+        "paragraphs": [
+          {
+            "en": "This guide provides general gameplay information and is not affiliated with Roblox or overzeer. Game updates can change mechanics, rewards and code availability. Check the current in-game prompt before spending currency or resetting progress."
+          },
+          {
+            "en": "Game names, artwork and screenshots belong to their respective owners. Community gameplay is identified separately from developer information. We do not guarantee game outcomes or the continued availability of third-party services."
           }
         ]
       }
