@@ -1,5 +1,5 @@
 {
-  "name": "game-guide-framework-v2",
+  "name": "roll-the-world-guide",
   "version": "2.0.0",
   "private": true,
   "description": "Reusable source-tracked game guide framework with locale-aware routing.",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "npm run prepare:routes && next dev",
-    "build": "npm run prepare:routes && node scripts/deployment-marker.mjs && next build",
+    "build": "npm run prepare:routes && node scripts/deployment-marker.mjs && next build --webpack",
     "start": "node scripts/serve-static.mjs",
     "build:video-transcripts": "node scripts/build-video-transcripts.mjs",
     "generate:brand-icons": "node scripts/generate-brand-icons.mjs",
