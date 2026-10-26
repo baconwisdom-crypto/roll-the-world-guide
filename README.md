@@ -14,7 +14,7 @@ Publishing workspace: `I:\游戏站\_发布工作区\roll-the-world`
 
 Use Node 22.18.0 or a newer compatible 22.x version. Install with `npm ci`, then run `npm run verify`. The static output is `out`.
 
-Local validation uses a project-owned dependency directory. Production installs independently from `package-lock.json`. Webpack is selected explicitly for reproducible static builds.
+Use a project-owned dependency directory for local validation. Production installs independently from `package-lock.json`. Webpack is selected explicitly for reproducible static builds.
 
 GitHub repository: https://github.com/baconwisdom-crypto/roll-the-world-guide
 
