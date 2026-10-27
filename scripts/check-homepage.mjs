@@ -28,6 +28,8 @@ assert.equal((html.match(/<h1\b/g) ?? []).length, 1);
 assert.ok(html.includes(`<h1>${data.home.hero.title}</h1>`));
 assert.ok(html.includes(`<title>${escape(data.metadata.title)}</title>`));
 assert.ok(html.includes(`property="og:title" content="${escape(data.metadata.title)}"`));
+assert.ok(html.includes(`name="twitter:title" content="${escape(data.metadata.title)}"`));
+assert.ok(html.includes('href="/codes/"'));
 assert.ok(html.includes(`name="description" content="${escape(data.metadata.description)}"`));
 assert.ok(html.includes(`property="og:description" content="${escape(data.metadata.description)}"`));
 for (const value of [...data.home.hero.stats, ...data.home.aboutGame.paragraphs, data.footer.about]) assert.ok(html.includes(escape(value)), `Unrendered homepage field: ${value}`);
