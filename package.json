@@ -22,7 +22,7 @@
     "check:build": "node scripts/check-build.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:seo": "node scripts/check-seo.mjs",
-    "verify": "npm run lint && npm run test:contracts && npm run test:routes && npm run test:generator && npm run check:brand-icons && npm run typecheck && npm run check:content && npm run check:video-evidence && npm run check:reading && npm run check:architecture && npm run build && npm run check:export && npm run check:build && npm run check:architecture-build && npm run check:links && npm run check:seo && npm run check:homepage",
+    "verify": "npm run lint && npm run test:contracts && npm run test:routes && npm run test:generator && npm run check:brand-icons && npm run typecheck && npm run check:content && npm run check:video-evidence && npm run check:reading && npm run check:architecture && npm run build && npm run check:export && npm run check:build && npm run check:architecture-build && npm run check:links && npm run check:seo && npm run check:homepage && npm run check:ads",
     "check:reading": "node scripts/check-reading-content.mjs",
     "check:architecture": "node scripts/check-architecture.mjs",
     "create:site": "node scripts/create-site.mjs",
@@ -31,7 +31,8 @@
     "check:export": "node scripts/check-export.mjs",
     "test:routes": "node scripts/check-route-preparation.mjs",
     "test:generator": "node scripts/check-generator.mjs",
-    "check:homepage": "node scripts/check-homepage.mjs"
+    "check:homepage": "node scripts/check-homepage.mjs",
+    "check:ads": "node scripts/check-ads.mjs"
   },
   "dependencies": {
     "next": "^16.3.2",

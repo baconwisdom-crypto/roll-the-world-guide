@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "domain": "rolltheworldwiki.wiki",
+  "productionHost": "www.rolltheworldwiki.wiki",
+  "websiteId": 6157049,
+  "category": "Social",
+  "complete": true,
+  "exportedAt": "2026-10-28T08:44:18.969678+00:00",
+  "source": "https://beta.publishers.adsterra.com/websites",
+  "units": [
+    {
+      "format": "native",
+      "placementId": 31965638,
+      "raw": "<script async=\"async\" data-cfasync=\"false\" src=\"https://bicea.org/21/c6e2080e067a5e996dd632cae62efcd4\"></script>\n<div id=\"container-c6e2080e067a5e996dd632cae62efcd4\"></div>",
+      "scriptUrls": [
+        "https://bicea.org/21/c6e2080e067a5e996dd632cae62efcd4"
+      ],
+      "key": "c6e2080e067a5e996dd632cae62efcd4",
+      "capturedAt": "2026-10-28T08:44:18.969678+00:00",
+      "containerId": "container-c6e2080e067a5e996dd632cae62efcd4",
+      "width": null,
+      "height": null
+    },
+    {
+      "format": "300x250",
+      "placementId": 31965639,
+      "raw": "<script>\n  atOptions = {\n    'key' : '24546c8009eb5fd9bbc2e21c8af70ab6',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/24546c8009eb5fd9bbc2e21c8af70ab6\"></script>",
+      "scriptUrls": [
+        "https://bicea.org/22/24546c8009eb5fd9bbc2e21c8af70ab6"
+      ],
+      "key": "24546c8009eb5fd9bbc2e21c8af70ab6",
+      "capturedAt": "2026-10-28T08:44:18.969678+00:00",
+      "containerId": null,
+      "width": 300,
+      "height": 250
+    },
+    {
+      "format": "160x600",
+      "placementId": 31965640,
+      "raw": "<script>\n  atOptions = {\n    'key' : 'edf8101c84ea4b771828585df9ff4b05',\n    'format' : 'iframe',\n    'height' : 600,\n    'width' : 160,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/edf8101c84ea4b771828585df9ff4b05\"></script>",
+      "scriptUrls": [
+        "https://bicea.org/22/edf8101c84ea4b771828585df9ff4b05"
+      ],
+      "key": "edf8101c84ea4b771828585df9ff4b05",
+      "capturedAt": "2026-10-28T08:44:18.969678+00:00",
+      "containerId": null,
+      "width": 160,
+      "height": 600
+    },
+    {
+      "format": "320x50",
+      "placementId": 31965641,
+      "raw": "<script>\n  atOptions = {\n    'key' : '746398582520adf2efbfd486751cdd27',\n    'format' : 'iframe',\n    'height' : 50,\n    'width' : 320,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/746398582520adf2efbfd486751cdd27\"></script>",
+      "scriptUrls": [
+        "https://bicea.org/22/746398582520adf2efbfd486751cdd27"
+      ],
+      "key": "746398582520adf2efbfd486751cdd27",
+      "capturedAt": "2026-10-28T08:44:18.969678+00:00",
+      "containerId": null,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "format": "728x90",
+      "placementId": 31965642,
+      "raw": "<script>\n  atOptions = {\n    'key' : 'ff8b2ebaa128013ee236e0c037d39617',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bicea.org/22/ff8b2ebaa128013ee236e0c037d39617\"></script>",
+      "scriptUrls": [
+        "https://bicea.org/22/ff8b2ebaa128013ee236e0c037d39617"
+      ],
+      "key": "ff8b2ebaa128013ee236e0c037d39617",
+      "capturedAt": "2026-10-28T08:44:18.969678+00:00",
+      "containerId": null,
+      "width": 728,
+      "height": 90
+    }
+  ]
+}

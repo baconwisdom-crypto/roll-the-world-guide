@@ -2,6 +2,7 @@ import Link from "next/link";
 import homepage from "@/config/homepage.json";
 import { siteConfig } from "@/config/site";
 import { ContentImage } from "./content-image";
+import { AdSlot } from "./ad-slot";
 
 type Action = { label: string; href: string };
 function ActionLink({ action, primary = false }: { action: Action; primary?: boolean }) {
@@ -23,11 +24,14 @@ export function RollWorldHomepage() {
       {image && <div className="arch-brand-image"><ContentImage bare preload image={{ src: image.src, alt: image.alt.en, ratio: image.ratio, fit: image.fit }} /></div>}
     </header>
     <ul className="rw-hero-stats" aria-label="Game essentials">{hero.stats.map(stat => <li key={stat}>{stat}</li>)}</ul>
+    <AdSlot placement="home-banner" format="responsive-banner" />
     <section className="rw-start" aria-labelledby="home-start-title">
       <p className="arch-kicker">{start.eyebrow}</p><h2 id="home-start-title">{start.title}</h2>
       <nav className="rw-start-grid" aria-label="First two hours guides">{start.cards.map(card => <Link key={card.number} href={card.href} className="rw-start-card" data-start-card={card.number}><span className="rw-card-number">{card.number}</span><h3>{card.title}</h3><p>{card.description}</p><span className="rw-card-link">Read guide <span aria-hidden="true">→</span></span></Link>)}</nav>
     </section>
     <section className="rw-about" aria-labelledby="home-about-title"><h2 id="home-about-title">{aboutGame.title}</h2><div className="rw-about-grid"><div>{aboutGame.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}<ActionLink action={aboutGame.cta} /></div><aside aria-label="Progression essentials"><dl className="rw-about-stats">{aboutGame.stats.map(stat => <div key={stat.label}><dt>{stat.label}</dt><dd>{stat.value}</dd></div>)}</dl><SidebarCodes /></aside></div></section>
+    <AdSlot placement="sidebar-square" format="sidebar-square" />
+    <AdSlot placement="article-banner" format="responsive-banner" />
     <section className="rw-final" aria-labelledby="home-final-title"><h2 id="home-final-title">{finalCta.title}</h2><p>{finalCta.description}</p><div className="rw-actions"><ActionLink action={finalCta.primary} primary /><ActionLink action={finalCta.secondary} /></div></section>
   </div>;
 }

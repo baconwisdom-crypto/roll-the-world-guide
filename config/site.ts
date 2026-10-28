@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
  officialLinks: [{ label: "Play on Roblox", url: "https://www.roblox.com/games/97342490021056/roll-the-world" }],
  heroImage: { src: "/images/official-hero.png", alt: { en: "Official Roll the World promotional artwork" }, heroMediaType: "official-promotional-image", sourceId: "official-game", ratio: "video" },
  heroVideo: null, mediaPresentation: { showImageText: false }, analytics: { enabled: true, measurementId: "G-1DREYT6CMM" },
- ads: { enabled: false, previewPlaceholders: false, desktopChrome: { enabled: false }, placements: { "top-sticky": false, "left-sticky": false, "home-banner": false, "article-banner": false, "sidebar-square": false } },
+ ads: { enabled: true, provider: "adsterra", previewPlaceholders: false, desktopChrome: { enabled: true }, placements: { "top-sticky": false, "left-sticky": true, "home-banner": true, "article-banner": true, "sidebar-square": true } },
  evidenceLabels: [{ label: "Official description", note: { en: "Developer information checked against the canonical Roblox experience." } }, { label: "Reviewed gameplay", note: { en: "Menu observations and screenshots from public community gameplay." } }],
  disclaimer: { en: "Independent fan guide. Not affiliated with Roblox or overzeer. Game content belongs to its respective owners." }
 } satisfies SiteConfig;

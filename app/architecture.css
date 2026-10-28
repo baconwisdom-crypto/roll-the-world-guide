@@ -226,3 +226,12 @@ body { background-color: var(--site-background); }
 .arch-page .ui-prose--lead { color: var(--site-text-strong); }
 
 .arch-landing-lead:not(:has(.arch-brand-image)) { grid-template-columns: minmax(0,1fr); }
+
+/* Exact live dimensions exclude preview padding. */
+.ad-slot[data-ad-state="enabled"] { border: 0; padding: 0; background: transparent; }
+.ad-slot[data-ad-state="enabled"]:not(:has(iframe, [data-ad-format="native"])) { min-height: 0; height: 0; margin-block: 0; }
+.ad-slot--vertical-rail[data-ad-state="enabled"] { height: 600px; }
+.ad-slot--sidebar-square[data-ad-state="enabled"] { width: min(100%,300px); min-height: 0; aspect-ratio: auto; }
+.ad-slot--responsive-banner[data-ad-state="enabled"] { width: min(100%,728px); }
+.ad-slot [data-ad-format="native"] { width: 100%; min-width: 0; overflow: hidden; }
+.ad-slot iframe { max-width: 100%; }

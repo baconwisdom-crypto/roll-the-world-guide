@@ -1,12 +1,12 @@
 import { AdSlot } from "@/components/ad-slot";
 import { DismissibleTopAd } from "@/components/dismissible-top-ad";
 import { siteConfig } from "@/config/site";
+import bundle from "@/config/ad-units.json";
 
 export function getAdChromeState() {
   const ads = siteConfig.ads;
-  // This neutral source has preview slots only. A project's verified provider
-  // adapter must supply its own matching availability check before live use.
-  const visible = Boolean(ads.desktopChrome?.enabled && !ads.enabled && ads.previewPlaceholders);
+  const available = bundle.complete && bundle.domain === new URL(siteConfig.siteUrl).hostname.replace(/^www\./, "") && bundle.units.some(unit => unit.format === "160x600");
+  const visible = Boolean(ads.desktopChrome?.enabled && ads.enabled && available);
   return {
     top: visible && Boolean(ads.placements?.["top-sticky"]),
     left: visible && Boolean(ads.placements?.["left-sticky"]),
